@@ -16,11 +16,11 @@ const Homepage = () => {
    </div>
     </div>
 
-    <div className={`${styles.flexCenter} md:mt-20 pink`}>
+    {/* <div className={`${styles.flexCenter} md:mt-20 pink`}>
    <div className={`${styles.boxWidth} md:mt-20`}>
     <Bag />
    </div>
-    </div>
+    </div> */}
   
 
    <div className='h-[120px] pink'></div>
