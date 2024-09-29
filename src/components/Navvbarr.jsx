@@ -46,7 +46,7 @@ const Navvbarr = () => {
           whileInView="visible"
         />
         <div className='mt-4'>
-          <h1 className='text-white pop-thin md:text-[2vw] text-[4vw]'>
+          <h1 className='text-white pop-bold md:text-[3vw] text-[4vw] text'>
             Churros
           </h1>
         </div>

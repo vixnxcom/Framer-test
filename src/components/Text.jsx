@@ -34,14 +34,14 @@ const TextArea = () => {
       animate="visible"
     >
       <motion.h1
-        className="flex items-center justify-center pop-medium md:text-[8vw] text-[12vw] text-white md:mt-0 mt-20"
+        className="flex items-center justify-center pop-medium md:text-[8vw] text-[14vw] text-white md:mt-0 mt-10 text"
         variants={child}
        
       >
         Exquisite!
       </motion.h1>
       <motion.h1
-        className="flex items-center justify-center pop-medium md:text-[8vw] text-[12vw] text-white"
+        className="flex items-center justify-center pop-medium md:text-[8vw] text-[12vw] text-white text"
         variants={child}
       >
         Delightful!
