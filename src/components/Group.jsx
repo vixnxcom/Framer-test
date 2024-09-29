@@ -3,6 +3,7 @@ import React from 'react';
 import Text from './Text';
 import TextArea from './Text';
 import { avacado, cake } from '../assets';
+import Line from './Line';
 
 
 const containerVariants = {
@@ -22,7 +23,7 @@ const itemVariants = {
 
 const Group = () => {
   return (
-    <div className='flex flex-col gap-8 overflow-x-hidden h-screen'>
+    <div className='flex flex-col gap-8 overflow-x-hidden h-screen bg-text'>
       <TextArea/>
 
       <motion.section
@@ -56,12 +57,15 @@ const Group = () => {
      
         </motion.div>
 
+    
 
      
        
       </motion.section>
 
-
+      <div className='z-[999]'>
+        <Line />
+    </div>
 
    
     </div>

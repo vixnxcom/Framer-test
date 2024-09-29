@@ -3,11 +3,12 @@ import Group from './Group'
 
 import Bag from './bag'
 import styles from '../style'
+import Line from './Line'
 
 
 const Homepage = () => {
   return (
-    <section className='bg-text w-full overflow-hidden'> 
+    <section className='pink w-full overflow-hidden'> 
 
     <div className={`${styles.flexCenter}`}>
    <div className={`${styles.boxWidth}`}>
@@ -20,7 +21,7 @@ const Homepage = () => {
     <Bag />
    </div>
     </div>
-
+  
 
    <div className='h-[120px] pink'></div>
     </section>

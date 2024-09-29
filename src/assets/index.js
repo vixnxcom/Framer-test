@@ -7,11 +7,13 @@ import avacado from './avacado.png'
 import cake from './cake.png'
 import logo from './logo.png'
 import lady from './lady.png'
+import arrow from './arrow.png'
 
 
 
 
 export {
+    arrow,
     lady,
     logo,
     cake,
