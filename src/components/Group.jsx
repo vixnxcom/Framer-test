@@ -45,7 +45,7 @@ const Group = () => {
          <motion.img
          initial={{ opacity: 0, y: 100}}
          animate={{opacity: 1, y: 0}} 
-         transition={{ duration: 1, ease: 'easeInOut', delay: 2}} className='w-32 h-24 shadow' 
+         transition={{ duration: 1, ease: 'easeInOut', delay: 2}} className='w-32 h-24' 
 
          src={cake} /> 
 
