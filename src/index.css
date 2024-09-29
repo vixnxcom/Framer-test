@@ -51,6 +51,10 @@
     font-family: pop-xbold;
     src: url(./fonts/pop/Popstone-ExtraBold.ttf);
   }
+@font-face {
+    font-family: pop-thin;
+    src: url(./fonts/pop/Popstone-Thin.ttf);
+  }
 
 
 
@@ -73,6 +77,9 @@
 }
 .pop-medium{
   font-family: pop-medium;
+}
+.pop-thin{
+  font-family: pop-thin;
 }
  .body{
   width: 100vw;
@@ -361,7 +368,12 @@ align-items: center;
     background-color: #ff0066;
   }
   
-  
+
+
+.shadow{
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
   
   .box {
     width: 100px;
@@ -369,3 +381,12 @@ align-items: center;
     background: white;
   }
   
+  .bg-text{
+    background: url(assets//lady.png);
+    background-size: cover;
+   
+    background-position: center;
+    background-color: #ff0066;
+    background-repeat: no-repeat;
+
+  }

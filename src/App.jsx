@@ -1,20 +1,15 @@
 import React from 'react'
 
-
-
+import Homepage from './components/Homepage'
 import Group from './components/Group'
+import Navvbarr from './components/Navvbarr'
+import Pages from './components/pages/Pages'
 
 const App = () => {
   return (
-    <section className='pink w-full overflow-hidden'>
-
-
     <div>
-      <Group />
+      <Pages />
     </div>
-
-    </section>
-   
   )
 }
 
