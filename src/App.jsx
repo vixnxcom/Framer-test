@@ -6,7 +6,7 @@ import Group from './components/Group'
 
 const App = () => {
   return (
-    <section className=''>
+    <section className='pink w-full overflow-hidden'>
 
 
     <div>

@@ -39,6 +39,19 @@
     src: url(./fonts/galgo/Galgo.ttf);
   }
 
+@font-face {
+    font-family: pop-medium;
+    src: url(./fonts/pop/Popstone-Medium.ttf);
+  }
+@font-face {
+    font-family: pop-bold;
+    src: url(./fonts/pop/Popstone-Bold.ttf);
+  }
+@font-face {
+    font-family: pop-xbold;
+    src: url(./fonts/pop/Popstone-ExtraBold.ttf);
+  }
+
 
 
   body{
@@ -55,7 +68,12 @@
 .neue-medium{
   font-family: neue-medium;
 }
-
+.pop-bold{
+  font-family: pop-bold;
+}
+.pop-medium{
+  font-family: pop-medium;
+}
  .body{
   width: 100vw;
    height: auto;
