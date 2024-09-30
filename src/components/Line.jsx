@@ -17,7 +17,7 @@ const Line = () => {
 
 
       <div className='flex flex-row mx-auto items-center '>
-        <h1 className='text-yellow-400 text-[5vw] sm:text-[4vw] md:text-[4vw] lg:text-[3vw] text-center mt-1 p-2 mx-4'>
+        <h1 className='text-yellow-400 text-[5vw] sm:text-[4vw] md:text-[4vw] lg:text-[3vw] text-center mt-1 p-2 mx-4 texxt'>
           Let's eat Cake
         </h1>
         <motion.button
