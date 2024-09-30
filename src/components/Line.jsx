@@ -3,8 +3,19 @@ import { motion } from 'framer-motion';
 import { arrow } from '../assets';
 
 const Line = () => {
+
+
+
   return (
-    <div className='flex justify-center z-[999] bg-white w-[90vw] h-auto'>
+    <motion.div className='flex justify-center z-[999] bg-white w-[90vw] h-auto' 
+    initial={{opacity: 0, x: -100}} 
+    animate={{opacity:1, x: 0}} 
+    transition={{scale: [2,1,2,1],  duration: 1, delay: 4 ,stiffness: 800, type: 'spring'}}
+    whileHover={{ scale: [1.2, 1], originX: 0,}} >
+
+
+
+
       <div className='flex flex-row mx-auto items-center '>
         <h1 className='text-yellow-400 text-[5vw] sm:text-[4vw] md:text-[4vw] lg:text-[3vw] text-center mt-1 p-2 mx-4'>
           Let's eat Cake
@@ -28,7 +39,7 @@ const Line = () => {
           />
         </motion.button>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

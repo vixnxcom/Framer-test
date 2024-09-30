@@ -16,7 +16,7 @@ const Pages = () => {
   return (
     <>
 <Router >
-     <div className=' w-full overflow-hidden pink'> 
+     <div className=' w-full overflow-hidden '> 
       <div className={`${styles.boxWidth} mx-auto`}>
         <Navvbarr />
      </div>

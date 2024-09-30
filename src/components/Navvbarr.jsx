@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { logo } from '../assets';
+import { div } from 'framer-motion/client';
 
 const svgVariants = {
   hidden: {
@@ -34,12 +35,13 @@ const pathVariants = {
 
 const Navvbarr = () => {
   return (
-    <div className='w-full mt-2 mx-4 z-[900]'>
+    <div className='nav-section w-full'>
+    <div className='w-full mt-2 mx-4 '>
       <motion.div className='flex flex-row'>
         {/* text area */}
         <motion.img
           src={logo}
-          className='md:w-16 h-20 w-36 z-[900] '
+          className='md:w-16 h-20 w-36 mt-2 '
           initial='hidden'
           animate='visible'
           variants={svgVariants}
@@ -52,6 +54,7 @@ const Navvbarr = () => {
         </div>
       </motion.div>
     </div>
+    </div> 
   );
 };
 

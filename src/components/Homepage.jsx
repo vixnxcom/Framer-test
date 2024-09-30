@@ -8,9 +8,9 @@ import Line from './Line'
 
 const Homepage = () => {
   return (
-    <section className='pink w-full overflow-hidden'> 
+    <section className=' w-full overflow-hidden '> 
 
-    <div className={`${styles.flexCenter}`}>
+    <div className={`${styles.flexCenter} `}>
    <div className={`${styles.boxWidth}`}>
     <Group />
    </div>
