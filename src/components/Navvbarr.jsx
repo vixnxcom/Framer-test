@@ -35,8 +35,8 @@ const pathVariants = {
 
 const Navvbarr = () => {
   return (
-    <div className='nav-section w-[100vw]'>
-    <div className='w-full mt-2 mx-4 '>
+
+   
       <motion.div className='flex flex-row'>
         {/* text area */}
         <motion.img
@@ -53,8 +53,8 @@ const Navvbarr = () => {
           </h1>
         </div>
       </motion.div>
-    </div>
-    </div> 
+
+ 
   );
 };
 

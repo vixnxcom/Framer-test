@@ -8,11 +8,13 @@ import cake from './cake.png'
 import logo from './logo.png'
 import lady from './lady.png'
 import arrow from './arrow.png'
+import menu from './menu.svg'
 
 
 
 
 export {
+    menu,
     arrow,
     lady,
     logo,
