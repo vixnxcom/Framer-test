@@ -36,7 +36,7 @@ const Line = () => {
           <img
             src={arrow} // Placeholder image for testing
             alt="arrow"
-            className='w-[15vw] sm:w-[10vw] md:w-[12vw] lg:w-[12vw] h-auto p-2'
+            className='w-[15vw] sm:w-[10vw] md:w-[10vw] lg:w-[12vw] h-auto p-2'
           />
         </motion.button>
       </div>

@@ -37,7 +37,7 @@ const Group = () => {
         {/* fade in */}
         <motion.div
           variants={itemVariants}
-           className=' flex items-center justify-center  gap-6 md:mt-0 mt-20'>
+           className=' flex items-center justify-center  gap-8 md:mt-0 mt-20'>
       
   
        
