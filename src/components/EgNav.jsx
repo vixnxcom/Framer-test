@@ -46,12 +46,19 @@ const EgNav = () => {
         <div className="absolute top-4 left-2 flex flex-row">
            <Navvbarr />
             </div>
-          <button
-            className="absolute top-2 right-8 w-28 text-black    z-50 " // Close button inside the menu
+          <motion.button
+            className="absolute top-0 right-8 w-28 text-black   mt-1 " // Close button inside the menu
             onClick={() => setIsOpen(!isOpen)} // menu open on button click
           >
-           <img src={menu} alt="" />
-          </button>
+           <motion.img src={menu} alt=""   initial={{rotate: 180, opacity: 1,  scale: 1 }} // Starts at normal size
+          animate={{rotate: 0, opacity: 1,  scale: [1, 1.5, 0.9, 1] }}
+          transition={{
+            delay: 3, duration: 1.5, ease: 'easeInOut', repeat: Infinity, repeatDelay: 5}}
+          
+         
+           />
+
+          </motion.button>
    
       
         
