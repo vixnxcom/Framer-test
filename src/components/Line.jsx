@@ -10,7 +10,7 @@ const Line = () => {
     <motion.div className='flex justify-center z-[999] bg-white w-[89vw] h-auto neo mx-4 ' 
     initial={{opacity: 0, x: -100}} 
     animate={{opacity:1, x: 0}} 
-    transition={{scale: [2,1,2,1],  duration: 3, delay: 4 ,stiffness: 800, type: 'spring'}}
+    transition={{scale: [2,1,2,1],  duration: 3, delay: 4.5, stiffness: 800, type: 'spring'}}
     whileHover={{ scale: [1.2, 1], originX: 0,}} >
 
 
@@ -25,7 +25,7 @@ const Line = () => {
           animate={{opacity: 1,  scale: [1, 1.2, 0.9, 1] }} // Bounce effect (scales up and down)
           transition={{
             duration: 1.5, 
-            delay: 6,// Duration of each loop
+            delay: 5,// Duration of each loop
             ease: "easeInOut", // Smooth easing
             repeat: Infinity, // Repeat forever
             repeatType: "loop", // Loop the animation
