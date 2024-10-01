@@ -25,7 +25,7 @@ const Line = () => {
           animate={{opacity: 1,  scale: [1, 1.2, 0.9, 1] }} // Bounce effect (scales up and down)
           transition={{
             duration: 1.5, 
-            delay: 5,// Duration of each loop
+            delay: 6,// Duration of each loop
             ease: "easeInOut", // Smooth easing
             repeat: Infinity, // Repeat forever
             repeatType: "loop", // Loop the animation
