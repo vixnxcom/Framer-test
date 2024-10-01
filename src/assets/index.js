@@ -9,11 +9,13 @@ import logo from './logo.png'
 import lady from './lady.png'
 import arrow from './arrow.png'
 import menu from './menu.png'
+import close from './close.png'
 
 
 
 
 export {
+    close,
     menu,
     arrow,
     lady,

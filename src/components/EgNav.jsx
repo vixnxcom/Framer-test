@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { logo, menu } from "../assets";
+import { close, logo, menu } from "../assets";
 import Navvbarr from "./Navvbarr";
 
 const EgNav = () => {
@@ -100,12 +100,14 @@ const EgNav = () => {
             </h1>
             </div>
           <button
-            className="absolute top-4 right-8 w-24 text-white bg-red-500 rounded-full p-2 hover:bg-red-400 shadow-lg z-50" // Close button inside the menu
+            className="absolute top-0 right-8 w-24 text-white  rounded-full   z-50" // Close button inside the menu
             onClick={() => setIsOpen(false)} // Close on button click
           >
-            &times; {/* Close icon (×) */}
+           
+            <img src={close} className="w-24" />
+            &times;
           </button>
-          <motion.ul className="space-y-8 text-3xl ">
+          <motion.ul className="space-y-8 text-5xl ">
             <motion.li variants={itemVariants}>
               <Link
                 to="/home"
