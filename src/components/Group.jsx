@@ -23,8 +23,8 @@ const itemVariants = {
 
 const Group = () => {
   return (
-    <div className='flex flex-col  gap-8 overflow-x-hidden h-screen pink '>
-      <div className='mt-20 bg-text'>
+    <div className='flex flex-col gap-10 overflow-x-hidden  h-screen bg-pinkk bg-textmd'>
+      <div className='md:mt-12 mt-24 bg-textsm'>
       <TextArea/>
 
       <motion.section
@@ -37,7 +37,7 @@ const Group = () => {
         {/* fade in */}
         <motion.div
           variants={itemVariants}
-           className=' flex items-center justify-center  gap-4'>
+           className=' flex items-center justify-center  gap-6 md:mt-0 mt-20'>
       
   
        
@@ -64,7 +64,7 @@ const Group = () => {
        
       </motion.section>
 
-      <div className='z-[999]'>
+      <div className='z-[999] md:mt-0 mt-8'>
         <Line />
     </div>
 

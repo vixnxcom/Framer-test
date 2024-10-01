@@ -40,17 +40,17 @@ const EgNav = () => {
   };
 
   return (
-    <nav className=" nav-section    z-[999]">
+    <nav className=" nav-section w-full   z-[999]">
       {/* Main Navbar */}
       <div className=" ">
         <Navvbarr />
         </div>
-      <div className=" text-white p-4 flex  items-end">
-       
-        <button className="text-red right-4 " onClick={() => setIsOpen(!isOpen)}>
-          Menu
-        </button>
-      </div>
+        <div className="absolute top-5 left-4  ">
+  <button className="text-white" onClick={() => setIsOpen(!isOpen)}>
+    Menu
+  </button>
+</div>
+
 
       {/* Split screen effect */}
       <motion.div
