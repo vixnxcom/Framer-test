@@ -42,7 +42,7 @@ const TextArea = () => {
     >
     
       <motion.h1
-        className="flex items-center justify-center pop-medium md:text-[8vw] text-[14vw] text-white md:mt-0 mt-8 text"
+        className="flex items-center justify-center pop-medium md:text-[8vw] text-[14vw] text-white md:mt-0 mt-10 text"
         variants={child}
        
       >
