@@ -55,7 +55,7 @@ const Group = () => {
          <motion.img
          initial={{ opacity: 0, y: -100}}
          animate={{opacity: 1, y: 0}} 
-         transition={{ duration: 1, ease: 'easeInOut', delay: 2.5}} className='w-28 h-32  mt-1' 
+         transition={{ duration: 1, ease: 'easeInOut', delay: 2.5}} className='w-28 h-32  ' 
          src={avacado} /> 
      
         </motion.div>
@@ -66,7 +66,7 @@ const Group = () => {
        
       </motion.section>
 
-      <div className='z-[999] md:mt-0 mt-8'>
+      <div className='z-[999] md:mt-0 mt-2'>
         <Line />
     </div>
 
