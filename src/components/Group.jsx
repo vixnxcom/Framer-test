@@ -26,7 +26,7 @@ const Group = () => {
     <div className='flex flex-col g overflow-x-hidden gap-4  h-screen  bg-pinkk bg-textmd'>
 
 
-      <div className='md:mt-12 mt-24 bg-textsm '>
+      <div className='md:mt-12 mt-10 bg-textsm '>
       <TextArea/>
 
       <motion.section
