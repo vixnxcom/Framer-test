@@ -10,11 +10,13 @@ import lady from './lady.png'
 import arrow from './arrow.png'
 import menu from './menu.png'
 import close from './close.png'
+import love from './love.svg'
 
 
 
 
 export {
+    love,
     close,
     menu,
     arrow,

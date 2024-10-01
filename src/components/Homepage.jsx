@@ -4,11 +4,14 @@ import Group from './Group'
 import Bag from './bag'
 import styles from '../style'
 import Line from './Line'
+import { love } from '../assets'
 
 
 const Homepage = () => {
   return (
     <section className=' w-full overflow-hidden '> 
+
+
 
     <div className={`${styles.flexCenter} `}>
    <div className={`${styles.boxWidth}`}>

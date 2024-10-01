@@ -1,4 +1,5 @@
 import { delay, motion } from 'framer-motion';
+import { love } from '../assets';
 
 const TextArea = () => {
   const container = {
@@ -28,16 +29,24 @@ const TextArea = () => {
 
   return (
     <motion.div
-      className="mt-20 "
+      className="md:mt-10 mt-20 "
       variants={container}
       initial="hidden"
       animate="visible"
     >
+           <div className=' md:mt-10'>
+        <img src={love} alt="" className='w-28 ' />
+         </div>
+
+
+
       <motion.h1
         className="flex items-center justify-center pop-medium md:text-[8vw] text-[14vw] text-white md:mt-0 mt-10 text"
         variants={child}
        
       >
+        
+
         Exquisite!
       </motion.h1>
       <motion.h1

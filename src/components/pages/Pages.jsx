@@ -2,6 +2,7 @@ import React, { Suspense } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Homepage from '../Homepage'
 import EgNav from '../EgNav'
+import { love } from '../../assets'
 
 
 const Pages = () => {
