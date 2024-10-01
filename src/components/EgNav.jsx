@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { logo } from "../assets";
+import { logo, menu } from "../assets";
 import Navvbarr from "./Navvbarr";
 
 const EgNav = () => {
@@ -31,7 +31,7 @@ const EgNav = () => {
   // Individual menu item animation variants (retain your transitions)
   const itemVariants = {
     hidden: { opacity: 0, y: -60 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1, type: 'spring', stiffness: 80 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, type: 'spring', stiffness: 400 } },
   };
 
   // Handle menu item selection
@@ -47,10 +47,10 @@ const EgNav = () => {
            <Navvbarr />
             </div>
           <button
-            className="absolute top-4 right-8 w-24 text-black bg-white rounded-full p-2 hover:bg-red-400 shadow-lg z-50 mt-2" // Close button inside the menu
+            className="absolute top-4 right-8 w-28 text-black  hover:bg-red-400  z-50 mt-2" // Close button inside the menu
             onClick={() => setIsOpen(!isOpen)} // menu open on button click
           >
-           menu
+           <img src={menu} alt="" />
           </button>
    
       
@@ -88,7 +88,7 @@ const EgNav = () => {
         >
             <div className="absolute top-4 left-2 flex flex-row">
             <img src={logo} className="w-16"/>
-            <h1 className="pop-bold text-2xl mx-1 mt-4">
+            <h1 className="pop-bold text-2xl mx-1 mt-4 text">
              Churros
             </h1>
             </div>
