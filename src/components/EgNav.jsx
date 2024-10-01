@@ -21,7 +21,7 @@ const EgNav = () => {
       opacity: 1,
       y: 0,
       transition: {
-        staggerChildren: 1, // Keep your preferred delay between items
+        staggerChildren: 0.5, // Keep your preferred delay between items
         delay: 1,             // Delay before the items start to appear
         delayChildren: 1.5,   // Delay before the staggering starts
       },
@@ -42,14 +42,20 @@ const EgNav = () => {
   return (
     <nav className=" nav-section w-full   z-[999]">
       {/* Main Navbar */}
-      <div className=" ">
-        <Navvbarr />
-        </div>
-        <div className="absolute top-5 left-4  ">
-  <button className="text-white" onClick={() => setIsOpen(!isOpen)}>
-    Menu
-  </button>
-</div>
+        {/* logo / text */}
+        <div className="absolute top-4 left-2 flex flex-row">
+           <Navvbarr />
+            </div>
+          <button
+            className="absolute top-4 right-8 w-24 text-black bg-white rounded-full p-2 hover:bg-red-400 shadow-lg z-50 mt-2" // Close button inside the menu
+            onClick={() => setIsOpen(!isOpen)} // menu open on button click
+          >
+           menu
+          </button>
+   
+      
+        
+        {/* logo / text */}
 
 
       {/* Split screen effect */}
