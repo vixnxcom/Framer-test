@@ -53,7 +53,7 @@ const Group = () => {
          <motion.img
          initial={{ opacity: 0, y: -100}}
          animate={{opacity: 1, y: 0}} 
-         transition={{ duration: 1, ease: 'easeInOut', delay: 2.5}} className='w-28 h-32  ' 
+         transition={{ duration: 1, ease: 'easeInOut', delay: 2.5}} className='w-28 h-32  mt-1' 
          src={avacado} /> 
      
         </motion.div>
