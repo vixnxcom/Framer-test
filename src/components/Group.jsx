@@ -26,7 +26,7 @@ const Group = () => {
     <div className='flex flex-col g overflow-x-hidden gap-4  h-screen  bg-pinkk bg-textmd'>
 
 
-      <div className='md:mt-12 mt-10 bg-textsm '>
+      <div className='md:mt-12 mt-12 bg-textsm '>
       <TextArea/>
 
       <motion.section
@@ -39,7 +39,7 @@ const Group = () => {
         {/* fade in */}
         <motion.div
           variants={itemVariants}
-           className=' flex items-center justify-center  gap-8 md:mt-0 mt-8'>
+           className=' flex items-center justify-center  gap-8 md:mt-0 mt-5'>
       
   
   
