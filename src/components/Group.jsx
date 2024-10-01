@@ -23,7 +23,7 @@ const itemVariants = {
 
 const Group = () => {
   return (
-    <div className='flex flex-col g overflow-x-hidden gap-10 md:h-[110vh] h-screen  bg-pinkk bg-textmd'>
+    <div className='flex flex-col g overflow-x-hidden gap-4  h-screen  bg-pinkk bg-textmd'>
 
 
       <div className='md:mt-12 mt-24 bg-textsm '>
@@ -39,7 +39,7 @@ const Group = () => {
         {/* fade in */}
         <motion.div
           variants={itemVariants}
-           className=' flex items-center justify-center  gap-8 md:mt-0 mt-20'>
+           className=' flex items-center justify-center  gap-8 md:mt-0 mt-10'>
       
   
   
