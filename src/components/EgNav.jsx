@@ -31,7 +31,7 @@ const EgNav = () => {
   // Individual menu item animation variants (retain your transitions)
   const itemVariants = {
     hidden: { opacity: 0, y: -60 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1, type: 'spring', stiffness: 400 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, type: 'spring', stiffness: 600 } },
   };
 
   // Handle menu item selection
@@ -53,7 +53,7 @@ const EgNav = () => {
            <motion.img src={menu} alt=""   initial={{rotate: 180, opacity: 0,  scale: 1 }} // Starts at normal size
           animate={{rotate: 0, opacity: 1,  scale: [1, 1.5, 0.9, 1] }}
           transition={{
-            delay: 3, duration: 1.5, ease: 'easeInOut', repeat: Infinity, repeatDelay: 10}}
+            delay: 3, duration: 1.5, ease: 'easeInOut', repeat: Infinity, repeatDelay: 7}}
           
          
            />
