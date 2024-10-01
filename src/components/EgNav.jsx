@@ -47,7 +47,7 @@ const EgNav = () => {
            <Navvbarr />
             </div>
           <button
-            className="absolute top-2 right-8 w-24 text-black    z-50 " // Close button inside the menu
+            className="absolute top-2 right-8 w-28 text-black    z-50 " // Close button inside the menu
             onClick={() => setIsOpen(!isOpen)} // menu open on button click
           >
            <img src={menu} alt="" />
