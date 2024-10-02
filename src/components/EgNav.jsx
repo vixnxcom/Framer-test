@@ -107,7 +107,7 @@ const EgNav = () => {
             <img src={close} className="w-24" />
             &times;
           </button>
-          <motion.ul className="space-y-8 text-5xl ">
+          <motion.ul className="space-y-8 text-5xl text">
             <motion.li variants={itemVariants}>
               <Link
                 to="/home"
