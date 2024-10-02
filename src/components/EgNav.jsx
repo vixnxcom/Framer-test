@@ -95,7 +95,7 @@ const EgNav = () => {
         >
             <div className="absolute top-4 left-2 flex flex-row">
             <img src={logo} className="w-16"/>
-            <h1 className="pop-bold text-2xl mx-1 mt-4 text">
+            <h1 className="pop-bold text-4xl mx-1 mt-4 texxtt">
              Churros
             </h1>
             </div>
@@ -107,7 +107,7 @@ const EgNav = () => {
             <img src={close} className="w-24" />
             &times;
           </button>
-          <motion.ul className="space-y-8 text-5xl text">
+          <motion.ul className="space-y-8 text-5xl texxtt">
             <motion.li variants={itemVariants}>
               <Link
                 to="/home"

@@ -53,7 +53,7 @@ const TextArea = () => {
        
 
     <motion.div
-      className="md:mt-10 mt-10 "
+      className="md:mt-10 mt-11 "
       variants={container}
       initial="hidden"
       animate="visible"
