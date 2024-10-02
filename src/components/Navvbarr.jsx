@@ -41,13 +41,13 @@ const Navvbarr = () => {
         {/* text area */}
         <motion.img
           src={logo}
-          className='md:w-16 h-20 w-36 mt-1 '
+          className='md:w-16 h-20 w-36 mt-2 '
           initial='hidden'
           animate='visible'
           variants={svgVariants}
           whileInView="visible"
         />
-        <div className='mt-2'>
+        <div className='mt-4'>
           <h1 className='text-white pop-bold md:text-[3vw] text-[6vw] text'>
             Churros
           </h1>
