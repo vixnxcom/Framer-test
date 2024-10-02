@@ -66,7 +66,7 @@ const Group = () => {
        
       </motion.section>
 
-      <div className='z-[999] '>
+      <div className='z-[999] mt-4'>
         <Line />
     </div>
 
