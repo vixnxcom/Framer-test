@@ -39,7 +39,7 @@ const Group = () => {
         {/* fade in */}
         <motion.div
           variants={itemVariants}
-           className=' flex items-center justify-center  gap-8 md:mt-0 mt-4'>
+           className=' flex items-center justify-center  gap-8 '>
       
   
   
@@ -66,7 +66,7 @@ const Group = () => {
        
       </motion.section>
 
-      <div className='z-[999] md:mt-0 mt-1'>
+      <div className='z-[999] '>
         <Line />
     </div>
 
