@@ -1,7 +1,7 @@
 import React from 'react'
 import Group from './Group'
 
-import Bag from './bag'
+
 import styles from '../style'
 import Line from './Line'
 import { love } from '../assets'
