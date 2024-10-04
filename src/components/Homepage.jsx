@@ -13,7 +13,7 @@ const Homepage = () => {
 
 
 
-    <div className={`${styles.flexCenter} `}>
+    <div className={`${styles.flexCenter}bg-pinkk`}>
    <div className={`${styles.boxWidth}`}>
     <Group />
    </div>

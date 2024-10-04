@@ -16,7 +16,7 @@ const Pages = () => {
      </div> */}
 
 
-<div className='w-full'>
+<div className='w-full top-0 green'>
   <EgNav />
 </div>
 
