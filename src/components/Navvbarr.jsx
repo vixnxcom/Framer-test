@@ -37,11 +37,11 @@ const Navvbarr = () => {
   return (
 
    
-      <motion.div className='flex flex-row'>
+      <motion.div className='flex flex-row max-h-[15vh]'>
         {/* text area */}
         <motion.img
           src={logo}
-          className='md:w-16 h-20 w-36 mt-2 '
+          className='md:w-16  w-24 mt-1 '
           initial='hidden'
           animate='visible'
           variants={svgVariants}

@@ -27,7 +27,7 @@ const Homepage = () => {
     </div> */}
   
 
-   <div className='md:h-[400px] pink z-30'></div>
+   <div className='h-[120px] pink z-30'></div>
 
    
     </section>

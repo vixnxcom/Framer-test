@@ -23,7 +23,7 @@ const itemVariants = {
 
 const Group = () => {
   return (
-    <div className='flex flex-col g  gap-4  h-screen  bg-pinkk bg-textmd'>
+    <div className='flex flex-col g sm:overflow-x-hidden gap-4  h-screen  bg-pinkk bg-textmd'>
 
 
       <div className='md:mt-12 mt-10 bg-textsm '>
@@ -66,7 +66,7 @@ const Group = () => {
        
       </motion.section>
 
-      <div className='z-[999] mt-4 '>
+      <div className='z-[999] mt-4'>
         <Line />
     </div>
 
