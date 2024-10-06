@@ -169,9 +169,10 @@ text-shadow: 0px 0.2px 0.2px rgba(0, 0, 0, 0.25);
   .neo{
 
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25), -10px 10px 0px greenyellow;
+  }
+  .neobutton{
 
-
-
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25), -20px 20px 0px greenyellow;
   }
 
 
@@ -277,7 +278,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25), -10px 10px 0px greenyellow;
     display: flex;
     overflow: hidden;
     position: relative;
-    padding-top: 10px;
+   
     margin-bottom: -80px;
     transform-origin: 10% 60%;
    }

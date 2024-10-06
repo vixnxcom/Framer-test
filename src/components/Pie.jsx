@@ -1,9 +1,9 @@
-import { delay, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import React from 'react';
-import { avacado, heart } from '../assets';
+import { avacado, cake, heart } from '../assets';
 import styles from '../style';
 
-const Newmenu = () => {
+const Pie = () => {
   // SVG Path animation variants
   const pathVariants = {
     hidden: {
@@ -38,7 +38,6 @@ const Newmenu = () => {
         type: 'spring',
         bounce: 0.5,
         stiffness: 300,
-        delay: 1,
         duration: 1,
       },
     },
@@ -62,13 +61,10 @@ transition:{
 }
 
 // button
-
-
-
   return (
-    <section className="flex  mb-5">
+    <section className="flex mt-10 mb-5">
       <motion.div
-        className="flex flex-col justify-center  w-[100vw]  items-center ccard "
+        className="flex flex-col justify-center  w-[100vw]  items-center ccard mt-10"
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.2 }}
@@ -76,11 +72,11 @@ transition:{
         {/* card 1 */}
 
         <motion.div
-          className="text-[5vw] pop-medium  w-[300px] items-center justify-center flex mx-auto  text-white"
+          className="text-[5vw] pop-medium  w-[300px] items-center justify-center flex mx-auto  mt-10 text-white"
          
         >
-            Avacado
-          <motion.img src={avacado} className="w-40 p-2" alt="heart"  initial="offscreen"
+            Pie
+          <motion.img src={cake} className="w-40 " alt="heart"  initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.5 }}
           variants={cardVariants}
@@ -127,8 +123,7 @@ transition:{
 
 
         {/* card 1 */}
-
-       <div className={`${styles.flexCenter} h-[16vh]`}>
+        <div className={`${styles.flexCenter} h-[16vh]`}>
        <motion.button className='pink text-white md:w-[30vw] w-[50vw]  h-[80px]   text-[32px] mt-1 pop-medium neobutton'
        variants={buttonVariants}
        initial='hidden'
@@ -136,9 +131,10 @@ transition:{
             Order Today
         </motion.button>
        </div>
+
       </motion.div>
     </section>
   );
 };
 
-export default Newmenu;
+export default Pie;
