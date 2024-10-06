@@ -6,16 +6,19 @@ import Pie from './Pie'
 
 const Order = () => {
   return (
-    <section className=' w-full overflow-hidden bg-blue-400 md:h-auto h-screen '> 
+    <section className=' w-full overflow-hidden bg-blue-400 md:h-auto h-[120vh] '> 
 
 
 
-    <div className={`${styles.flexCenter} `}>
-   <div className={`${styles.boxWidth}`}>
+  {/* title */}
+  <h1 className={`${styles.flexCenter}   pop-bold text-6xl justify-center items-center mx-auto text-white `}>
+    Menu
+  </h1>
+  {/* title */}
+
     <Newmenu />
     <Pie/>
-   </div>
-    </div>
+  
    
 
     </section >
