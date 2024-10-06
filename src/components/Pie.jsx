@@ -87,9 +87,9 @@ transition:{
         {/* <div className='green w-[80vw] h-[200px] mx-auto green-bg rounded-[24px] z-60' /> */}
 
         <motion.svg
-          width="440"
+          width="400"
           height="115"
-          viewBox="0 0 440 115"
+          viewBox="0 0 400 115"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"  className='h-[20vh]'
         >
