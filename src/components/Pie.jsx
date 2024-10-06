@@ -72,7 +72,7 @@ transition:{
         {/* card 1 */}
 
         <motion.div
-          className="text-[5vw] pop-medium  w-[300px] items-center justify-center flex mx-auto  mt-10 text-white"
+          className="text-[5vw] pop-medium  w-[320px] items-center justify-center flex mx-auto  mt-10 text-white"
          
         >
             Pie
