@@ -97,7 +97,7 @@ transition:{
         {/* card 1 */}
 
        <div className={`${styles.flexCenter} h-[16vh]`}>
-       <motion.button className='pink text-white md:w-[30vw] w-[50vw]  h-[80px]   text-[32px] mt-1 pop-medium neobutton'
+       <motion.button className='pink text-white md:w-[30vw] w-[50vw]  h-[72px]   text-[28px] mt-1 pop-medium neobutton'
        variants={buttonVariants}
        initial='hidden'
        whileInView='visible'
