@@ -127,7 +127,8 @@ transition:{
        <motion.button className='pink text-white md:w-[30vw] w-[50vw]  h-[80px]   text-[32px] mt-1 pop-medium neobutton'
        variants={buttonVariants}
        initial='hidden'
-       whileInView='visible'>
+       whileInView='visible'
+       viewport={{ once: true, amount: 0.2 }}>
             Order Today
         </motion.button>
        </div>
