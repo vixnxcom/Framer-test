@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Homepage from '../Homepage'
 import EgNav from '../EgNav'
 import { love } from '../../assets'
+import MenuP from '../MenuP'
+import Order from '../Order'
 
 
 const Pages = () => {
@@ -24,6 +26,7 @@ const Pages = () => {
 <Routes>
 
     <Route exact path ='/' element={<Homepage />} />  
+    <Route exact path ='/menu' element={<Order />} />  
    
 
 

@@ -31,7 +31,7 @@ const EgNav = () => {
   // Individual menu item animation variants (retain your transitions)
   const itemVariants = {
     hidden: { opacity: 0, y: -60 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1, type: 'spring', stiffness: 600 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, type: 'spring', bounce: 2, stiffness: 600 } },
   };
 
   // Handle menu item selection
@@ -119,7 +119,7 @@ const EgNav = () => {
             </motion.li>
             <motion.li variants={itemVariants}>
               <Link
-                to="/services"
+                to="/menu"
                 onClick={handleSelection}
                 className="hover:text-gray-400 neue-medium mx-2 font-bold"
               >

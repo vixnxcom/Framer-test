@@ -5,6 +5,7 @@ import Group from './Group'
 import styles from '../style'
 import Line from './Line'
 import { love } from '../assets'
+import MenuP from './MenuP'
 
 
 const Homepage = () => {
@@ -13,7 +14,7 @@ const Homepage = () => {
 
 
 
-    <div className={`${styles.flexCenter}bg-pinkk`}>
+    <div className={`${styles.flexCenter} bg-pinkk z-50`}>
    <div className={`${styles.boxWidth}`}>
     <Group />
    </div>
@@ -26,7 +27,9 @@ const Homepage = () => {
     </div> */}
   
 
-   <div className='h-[120px] pink'></div>
+   <div className='md:h-[400px] pink z-30'></div>
+
+   
     </section>
   )
 }

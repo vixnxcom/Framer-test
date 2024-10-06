@@ -7,7 +7,7 @@ const Line = () => {
 
 
   return (
-    <motion.div className='flex justify-center z-[999] bg-white w-[89vw] h-auto neo mx-4 ' 
+    <motion.div className='flex justify-center z-[999] bg-white  w-[89vw]  h-auto neo mx-4 ' 
     initial={{opacity: 0, x: -100}} 
     animate={{opacity:1, x: 0}} 
     transition={{scale: [2,1,2,1],  duration: 3, delay: 4.5, stiffness: 800, type: 'spring'}}
@@ -17,7 +17,7 @@ const Line = () => {
 
 
       <div className='flex flex-row mx-auto items-center '>
-        <h1 className='text-yellow-400 text-[5vw] sm:text-[4vw] md:text-[8vw] lg:text-[8vw] text-center mt-1 p-2 mx-4 texxt'>
+        <h1 className='text-yellow-400 text-[5vw] sm:text-[4vw] md:text-[4vw] lg:text-[4vw] text-center mt-1 p-2 mx-4 texxt'>
           Let's eat Cake
         </h1>
         <motion.button
@@ -36,7 +36,7 @@ const Line = () => {
           <img
             src={arrow} // Placeholder image for testing
             alt="arrow"
-            className='w-[15vw] sm:w-[10vw] md:w-[10vw] lg:w-[12vw] h-auto p-2'
+            className='w-[15vw] sm:w-[10vw] md:w-[8vw] lg:w-[8vw] h-auto p-2'
           />
         </motion.button>
       </div>
