@@ -11,7 +11,7 @@ const Order = () => {
 
 
   {/* title */}
-  <h1 className={`${styles.flexCenter}   pop-bold text-6xl justify-center items-center mx-auto text-white `}>
+  <h1 className={`${styles.flexCenter}   pop-bold text-6xl justify-center items-center mx-auto text-white mt-10`}>
     Menu
   </h1>
   {/* title */}

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import { avacado, cake, heart } from '../assets';
+import { avacado, cake, cream, heart } from '../assets';
 import styles from '../style';
 import Svganim from './Svganim';
 
@@ -57,11 +57,11 @@ transition:{
         {/* card 1 */}
 
         <motion.div
-          className="text-[5vw] pop-medium  w-[320px] items-center justify-center flex mx-auto  mt-10 text-white"
+          className="text-[6vw] pop-medium gap-2  w-[75vw] items-center justify-center flex mx-auto  mt-10 text-white"
          
         >
-            Pie
-          <motion.img src={cake} className="w-40 " alt="heart"  initial="offscreen"
+           <h1 className=''>Desserts</h1>
+          <motion.img src={cream} className="w-40 mb-4" alt="heart"  initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.5 }}
           variants={cardVariants}
