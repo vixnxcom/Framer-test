@@ -1,27 +1,26 @@
-import React from 'react'
-import MenuP from './MenuP'
-import styles from '../style'
-import Newmenu from './Newmenu'
-import Pie from './Pie'
-import { burger } from '../assets'
-import Menutitle from './Menutitle'
+import React from 'react';
+import MenuP from './MenuP';
+import styles from '../style';
+import Newmenu from './Newmenu';
+import Pie from './Pie';
+import Menutitle from './Menutitle';
 
 const Order = () => {
   return (
-    <section className=' w-full overflow-hidden bg-sky md:h-auto h-[140vh] '> 
+    // The main container for the Order section
+    <section className='w-full min-h-screen bg-sky overflow-hidden '>
+      {/* Menu title with the animated burger icon and heading */}
+      <Menutitle />
 
+      {/* Newmenu component will display the new menu section */}
+      <Newmenu />
 
+      {/* Pie component will display some content, maybe a chart or pie-related section */}
+      <Pie />
 
-  {/* title */}
-    <Menutitle />
-
-    <Newmenu />
-    <Pie/>
-  
-   
-
-    </section >
-  )
+      <div className='h-[80px] bg-sky'></div>
+    </section>
+  );
 }
 
-export default Order
+export default Order;
