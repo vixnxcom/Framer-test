@@ -6,7 +6,7 @@ import Pie from './Pie'
 
 const Order = () => {
   return (
-    <section className=' w-full overflow-hidden bg-green md:h-auto h-[130vh] '> 
+    <section className=' w-full overflow-hidden bg-sky md:h-auto h-[130vh] '> 
 
 
 
