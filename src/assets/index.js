@@ -11,12 +11,14 @@ import arrow from './arrow.png'
 import menu from './menu.png'
 import close from './close.png'
 import cream from './cream.png'
+import cherry from './cherry.png'
 import love from './love.svg'
 
 
 
 
 export {
+    cherry,
     love,
     cream,
     close,

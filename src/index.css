@@ -126,6 +126,9 @@
   .green{
        background-color: #55FC06;
   }
+  .bg-green{
+       background-color: #4be603;
+  }
 .shadow{
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
 }
@@ -172,7 +175,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25), -10px 10px 0px greenyellow;
   }
   .neobutton{
 
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25), -10px 10px 0px greenyellow;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25), -10px 10px 0px yellow;
   }
 
 

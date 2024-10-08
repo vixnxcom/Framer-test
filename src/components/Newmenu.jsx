@@ -1,6 +1,6 @@
 import { delay, motion } from 'framer-motion';
 import React from 'react';
-import { avacado, heart } from '../assets';
+import { avacado, cherry, heart } from '../assets';
 import styles from '../style';
 import Svganim from './Svganim';
 
@@ -77,17 +77,16 @@ transition:{
         {/* card 1 */}
 
         <motion.div
-          className="text-[5vw] pop-medium  w-[300px] items-center justify-center flex mx-auto  text-white"
+          className="text-[6vw] neue-medium gap-2  w-[75vw] items-center justify-center flex mx-auto  mt-10 text-white"
          
         >
-            Avacado
-          <motion.img src={avacado} className="w-40 p-2" alt="heart"  initial="offscreen"
+           <h1 className='underline'>Fruits</h1>
+          <motion.img src={cherry} className="w-40 mb-4" alt="heart"  initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.5 }}
           variants={cardVariants}
           style={{ originY: '100%' }}/>
         </motion.div>
-
         {/* Optional Background Element (Commented Out) */}
         {/* <div className='green w-[80vw] h-[200px] mx-auto green-bg rounded-[24px] z-60' /> */}
 
