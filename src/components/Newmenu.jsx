@@ -39,7 +39,7 @@ const Newmenu = () => {
         type: 'spring',
         bounce: 0.5,
         stiffness: 300,
-        delay: 1,
+        delay: 2,
         duration: 2,
       },
     },
@@ -55,7 +55,7 @@ opacity: 1,
 scale: [1, 2,1],
 transition:{
     
-    delay: 2,
+    delay: 2.2,
     duration: 1
 }
 }
@@ -80,7 +80,7 @@ transition:{
           className="text-[6vw] neue-medium gap-2  w-[75vw] items-center justify-center flex mx-auto  mt-10 text-white"
          
         >
-           <h1 className='underline'>Fruits</h1>
+           <h1 className='underline'>Sides</h1>
           <motion.img src={cherry} className="w-40 mb-4" alt="heart"  initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.5 }}

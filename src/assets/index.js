@@ -16,10 +16,12 @@ import cherry from './cherry.png'
 import love from './love.svg'
 
 import burger from './burger.png'
+import egg from './egg.png'
 
 
 
 export {
+    egg,
     burger,
     
     cherry,

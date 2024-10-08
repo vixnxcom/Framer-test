@@ -1,10 +1,10 @@
 import { delay, motion } from 'framer-motion';
 import React from 'react';
-import { avacado, cake, cherry, cream, heart } from '../assets';
+import { avacado, cherry, egg, heart } from '../assets';
 import styles from '../style';
 import Svganim from './Svganim';
 
-const Pie = () => {
+const Main = () => {
   // SVG Path animation variants
   const pathVariants = {
     hidden: {
@@ -39,7 +39,7 @@ const Pie = () => {
         type: 'spring',
         bounce: 0.5,
         stiffness: 300,
-        delay: 3,
+        delay: 1.2,
         duration: 2,
       },
     },
@@ -55,7 +55,7 @@ opacity: 1,
 scale: [1, 2,1],
 transition:{
     
-    delay: 3.2,
+    delay: 2,
     duration: 1
 }
 }
@@ -80,8 +80,8 @@ transition:{
           className="text-[6vw] neue-medium gap-2  w-[75vw] items-center justify-center flex mx-auto  mt-10 text-white"
          
         >
-           <h1 className='underline'>Desserts</h1>
-          <motion.img src={cream} className="w-40 mb-4" alt="heart"  initial="offscreen"
+           <h1 className='underline'>Main Course</h1>
+          <motion.img src={egg} className="w-40 mb-4" alt="heart"  initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.5 }}
           variants={cardVariants}
@@ -109,4 +109,4 @@ transition:{
   );
 };
 
-export default Pie;
+export default Main;

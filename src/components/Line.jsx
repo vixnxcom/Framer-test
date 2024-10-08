@@ -7,7 +7,7 @@ const Line = () => {
 
 
   return (
-    <motion.div className='flex justify-center z-[999] bg-white  w-[80vw]  h-auto neo mx-2 ' 
+    <motion.div className='flex justify-center z-[999] bg-white  w-[88vw]  h-auto neo mx-2 ' 
     initial={{opacity: 0, x: -100}} 
     animate={{opacity:1, x: 0}} 
     transition={{scale: [2,1,2,1],  duration: 3, delay: 4.5, stiffness: 800, type: 'spring'}}
