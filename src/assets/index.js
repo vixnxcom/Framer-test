@@ -12,12 +12,16 @@ import menu from './menu.png'
 import close from './close.png'
 import cream from './cream.png'
 import cherry from './cherry.png'
+
 import love from './love.svg'
 
+import burger from './burger.png'
 
 
 
 export {
+    burger,
+    
     cherry,
     love,
     cream,

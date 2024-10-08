@@ -3,18 +3,17 @@ import MenuP from './MenuP'
 import styles from '../style'
 import Newmenu from './Newmenu'
 import Pie from './Pie'
+import { burger } from '../assets'
+import Menutitle from './Menutitle'
 
 const Order = () => {
   return (
-    <section className=' w-full overflow-hidden bg-sky md:h-auto h-[130vh] '> 
+    <section className=' w-full overflow-hidden bg-sky md:h-auto h-[140vh] '> 
 
 
 
   {/* title */}
-  <h1 className={`${styles.flexCenter}   pop-bold text-6xl justify-center items-center mx-auto text-white mt-10`}>
-    Menu
-  </h1>
-  {/* title */}
+    <Menutitle />
 
     <Newmenu />
     <Pie/>
