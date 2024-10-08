@@ -40,7 +40,7 @@ const Newmenu = () => {
         bounce: 0.5,
         stiffness: 300,
         delay: 1,
-        duration: 1,
+        duration: 2,
       },
     },
   };

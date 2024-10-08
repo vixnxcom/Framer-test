@@ -12,6 +12,7 @@ const Pie = () => {
     offscreen: {
       opacity: 0,
       y: 0, // Original Y-axis movement
+
     },
     onscreen: {
       opacity: 1,
@@ -23,7 +24,8 @@ const Pie = () => {
         type: 'spring',
         bounce: 0.5,
         stiffness: 300,
-        duration: 1,
+        duration: 4,
+        
       },
     },
   };
@@ -38,7 +40,7 @@ opacity: 1,
 scale: [1, 2,1],
 transition:{
     
-    delay: 2,
+    delay: 1.5,
     duration: 1
 }
 }
@@ -63,7 +65,7 @@ transition:{
            <h1 className='underline'>Desserts</h1>
           <motion.img src={cream} className="w-40 mb-4" alt="heart"  initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.2 }}
           variants={cardVariants}
           style={{ originY: '100%' }}/>
         </motion.div>
