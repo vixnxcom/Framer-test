@@ -23,13 +23,13 @@ const Choicefile = () => {
    </div>
     </div>
 
-    <div className={`${styles.flexCenter} pink md:h-[50vh] h-[30vh] mx-5 mt-5`}>
+    <div className={`${styles.flexCenter} pink md:h-[50vh] h-[30vh] mx-5 mt-10`}>
    <div className={`${styles.boxWidth}`}>
     <Orders />
    </div>
     </div>
 
-    <div className={`${styles.flexCenter} pink md:h-[50vh] h-[30vh] mx-5 mt-5`}>
+    <div className={`${styles.flexCenter} pink md:h-[50vh] h-[30vh] mx-5 mt-10`}>
    <div className={`${styles.boxWidth}`}>
     <Recipes />
    </div>
