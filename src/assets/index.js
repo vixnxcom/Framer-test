@@ -17,13 +17,24 @@ import love from './love.svg'
 
 import burger from './burger.png'
 import egg from './egg.png'
+import stars from './stars.png'
+import custom from './custom.png'
+import customer from './customer.png'
+import meal from './meal.png'
+import recipes from './recipes.png'
+import organic from './organic.png'
 
 
 
 export {
+    customer,
+    meal,
+    organic,
+    recipes,
+    stars,
     egg,
     burger,
-    
+    custom,
     cherry,
     love,
     cream,

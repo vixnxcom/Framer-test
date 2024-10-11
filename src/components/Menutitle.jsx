@@ -25,7 +25,7 @@ const Menutitle = () => {
   };
 
   return (
-    <div className={`${styles.flexCenter} flex flex-row md:w-[50vw] w-[80vw] justify-center items-center mx-auto`}>
+    <div className={`${styles.flexCenter} flex flex-row md:w-[50vw] w-[80vw] justify-center items-center mx-auto mb-10`}>
       <motion.div className="mt-2">
         <motion.img 
           src={burger} 

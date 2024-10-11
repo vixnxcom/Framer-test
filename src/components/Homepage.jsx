@@ -9,6 +9,13 @@ import MenuP from './MenuP'
 import Newmenu from './Newmenu'
 import Pie from './Pie'
 import Order from './Order'
+import Stats from './Stats'
+import Custom from './Custom'
+import Orders from './Orders'
+import Recipes from './Recipes'
+import Choice from './Choice'
+import Choicefile from './Choicefile'
+import About from './aboutUs.jsx/About'
 
 
 const Homepage = () => {
@@ -23,18 +30,36 @@ const Homepage = () => {
    </div>
     </div>
 
-    <div className='md:h-[120px] pink z-30'></div>
+    <div className='md:h-[120px] h-[40px] bg-sky z-30'></div>
 
-    <div className={`${styles.flexCenter} bg-pinkk z-50`}>
+    <div className={`${styles.flexCenter} bg-pinkk z-50 `}>
    <div className={`${styles.boxWidth}`}>
     <Order />
    </div>
     </div>
-    
-  
-  
 
-   <div className='h-[120px] pink z-30'></div>
+   
+    <div className='h-[40px] pink'></div>
+
+    <div className={`${styles.flexCenter} bg-pink z-50 `}>
+   <div className={`${styles.boxWidth}`}>
+    <Choice />
+    <Choicefile/>
+   </div>
+    </div>
+
+    <div className='h-[80px] pink'></div>
+
+    <div className='h-[40px] bg-sky'></div>
+    <div className={`${styles.flexCenter} bg-sky`}>
+   <div className={`${styles.boxWidth}`}>
+    <About />
+   
+   </div>
+    </div>
+
+
+   
 
    
     </section>
