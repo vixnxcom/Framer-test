@@ -30,6 +30,16 @@ const Homepage = () => {
    </div>
     </div>
 
+    
+    <div className='h-[40px] green'></div>
+
+    <div className={`${styles.flexCenter} green z-50 `}>
+   <div className={`${styles.boxWidth}`}>
+    <Choice />
+    <Choicefile/>
+   </div>
+    </div>
+
     <div className='md:h-[120px] h-[40px] bg-sky z-30'></div>
 
     <div className={`${styles.flexCenter} bg-pinkk z-50 `}>
@@ -39,14 +49,7 @@ const Homepage = () => {
     </div>
 
    
-    <div className='h-[40px] green'></div>
-
-    <div className={`${styles.flexCenter} green z-50 `}>
-   <div className={`${styles.boxWidth}`}>
-    <Choice />
-    <Choicefile/>
-   </div>
-    </div>
+    
 
     <div className='h-[80px] green'></div>
 
