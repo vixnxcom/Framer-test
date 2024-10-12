@@ -24,10 +24,14 @@ import meal from './meal.png'
 import recipes from './recipes.png'
 import organic from './organic.png'
 import clip from './clip.png'
+import about from './about.png'
+import petal from './petal.png'
 
 
 
 export {
+    petal,
+    about,
     clip,
     customer,
     meal,
