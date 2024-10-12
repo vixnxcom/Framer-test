@@ -39,16 +39,16 @@ const Homepage = () => {
     </div>
 
    
-    <div className='h-[40px] pink'></div>
+    <div className='h-[40px] green'></div>
 
-    <div className={`${styles.flexCenter} bg-pink z-50 `}>
+    <div className={`${styles.flexCenter} green z-50 `}>
    <div className={`${styles.boxWidth}`}>
     <Choice />
     <Choicefile/>
    </div>
     </div>
 
-    <div className='h-[80px] pink'></div>
+    <div className='h-[80px] green'></div>
 
     <div className='h-[40px] bg-sky'></div>
     <div className={`${styles.flexCenter} bg-sky`}>
