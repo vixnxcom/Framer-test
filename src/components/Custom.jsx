@@ -36,12 +36,12 @@ const Custom = () => {
         
     
     <motion.div>
-        <motion.img src={stars} alt="" className='w-40'  
+        <motion.img src={stars} alt="" className='w-40 mx-2'  
        />
     </motion.div>
 
     <motion.div className='h-[15vh]'>
-        <motion.img src={meal} alt="" className='md:w-[50%] w-40'  
+        <motion.img src={meal} alt="" className='md:w-[50%] w-[85%]'  
         variants={starVariants} 
           initial="initial" 
           animate="animate" />

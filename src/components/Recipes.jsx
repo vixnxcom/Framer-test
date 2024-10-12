@@ -36,7 +36,7 @@ const Recipes = () => {
         
     
     <motion.div>
-        <motion.img src={stars} alt="" className='w-40'  
+        <motion.img src={stars} alt="" className='w-40 mx-2'  
        />
     </motion.div>
 
