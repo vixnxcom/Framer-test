@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../style';
-import { burger } from '../../assets';
+import { burger, woman } from '../../assets';
 import { motion } from 'framer-motion';
 
 const Abouttitle = () => {
@@ -28,7 +28,7 @@ const Abouttitle = () => {
     <div className={`${styles.flexCenter} flex flex-row md:w-[50vw] w-[80vw] justify-center items-center mx-auto mb-10`}>
       <motion.div className="mt-2">
         <motion.img 
-          src={burger} 
+          src={woman} 
           className="w-40" 
           variants={imgVariants} 
           initial="initial" 

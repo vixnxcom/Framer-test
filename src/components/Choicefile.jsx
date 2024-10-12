@@ -12,27 +12,27 @@ const Choicefile = () => {
   
     <div className={`${styles.flexCenter}  flex flex-row gap-2 mx-auto green grid grid-cols-2 md:h-[120vh]`}>
 
-    <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh] mx-2 mt-5`}>
+    <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh]  mt-5`}>
    <div className={`${styles.boxWidth}`}>
     <Stat />
    </div>
     </div>
-    <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh] mx-2 mt-5`}>
+    <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh]  mt-5`}>
    <div className={`${styles.boxWidth}`}>
     <Custom />
    </div>
     </div>
 
-    <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh] mx-2 mt-5 mb-5`}>
+    <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh]  mt-5 mb-5`}>
    <div className={`${styles.boxWidth}`}>
     <Orders />
    </div>
     </div>
 
-    <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh] mx-2 mt-5 mb-5`}>
+    <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh]  mt-5 mb-5`}>
    <div className={`${styles.boxWidth}`}>
     <Recipes />
-   </div>
+   </div> 
     </div>
     
     </div>

@@ -16,6 +16,7 @@ import Recipes from './Recipes'
 import Choice from './Choice'
 import Choicefile from './Choicefile'
 import About from './aboutUs.jsx/About'
+import Recess from './recess.jsx/Recess'
 
 
 const Homepage = () => {
@@ -30,7 +31,7 @@ const Homepage = () => {
    </div>
     </div>
 
-    
+
     <div className='h-[40px] green'></div>
 
     <div className={`${styles.flexCenter} green z-50 `}>
@@ -41,6 +42,9 @@ const Homepage = () => {
     </div>
 
     <div className='md:h-[120px] h-[40px] bg-sky z-30'></div>
+    <div>
+      <Recess />
+    </div>
 
     <div className={`${styles.flexCenter} bg-pinkk z-50 `}>
    <div className={`${styles.boxWidth}`}>
@@ -60,7 +64,7 @@ const Homepage = () => {
    
    </div>
     </div>
-
+    <div className='h-[80px] bg-sky'></div>
 
    
 

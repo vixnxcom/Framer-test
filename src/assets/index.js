@@ -26,10 +26,14 @@ import organic from './organic.png'
 import clip from './clip.png'
 import about from './about.png'
 import petal from './petal.png'
+import bgimg from './bgimg.png'
+import woman from './woman.png'
 
 
 
 export {
+    woman,
+    bgimg,
     petal,
     about,
     clip,

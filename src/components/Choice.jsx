@@ -17,7 +17,7 @@ const Choice = () => {
       transition: {
         duration: 1.5, // Controls the duration of the animation
         repeat: Infinity,
-        repeatDelay: 3,
+        repeatDelay: 1,
         duration: 3,
         ease: "easeInOut", // Easing for smooth animation
       },
