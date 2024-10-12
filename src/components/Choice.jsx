@@ -32,7 +32,7 @@ const Choice = () => {
       <motion.div className="mt-2">
         <motion.img 
           src={clip} 
-          className="w-60" 
+          className="w-[100%]" 
           variants={imgVariants} 
           initial="initial" 
           animate="animate" 
