@@ -15,6 +15,7 @@ export default function Image() {
         rotate: [0, 360], // Rotate from 0 to 360 degrees
       } : {}}
       transition={{
+        delay: 3,
         duration: 2, // Total animation duration
         ease: "easeInOut", // Smooth easing
       }}
