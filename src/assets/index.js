@@ -23,10 +23,12 @@ import customer from './customer.png'
 import meal from './meal.png'
 import recipes from './recipes.png'
 import organic from './organic.png'
+import clip from './clip.png'
 
 
 
 export {
+    clip,
     customer,
     meal,
     organic,

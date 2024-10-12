@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../style';
-import { burger } from '../assets';
+import { burger, clip } from '../assets';
 import { motion } from 'framer-motion';
 
 const Choice = () => {
@@ -31,8 +31,8 @@ const Choice = () => {
       </h1>
       <motion.div className="mt-2">
         <motion.img 
-          src={burger} 
-          className="w-40" 
+          src={clip} 
+          className="w-60" 
           variants={imgVariants} 
           initial="initial" 
           animate="animate" 
