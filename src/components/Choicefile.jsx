@@ -10,7 +10,7 @@ const Choicefile = () => {
    
     
   
-    <div className={`${styles.flexCenter}  flex flex-row gap-2 mx-auto green grid grid-cols-2 md:h-[120vh]`}>
+    <div className={`${styles.flexCenter}  flex flex-row gap-2 mx-auto pink grid grid-cols-2 md:h-[120vh]`}>
 
     <div className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh]  mt-5`}>
    <div className={`${styles.boxWidth}`}>

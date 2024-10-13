@@ -9,7 +9,7 @@ import Main from './Main';
 const Order = () => {
   return (
     // The main container for the Order section
-    <section className='w-full min-h-screen bg-sky overflow-hidden '>
+    <section className='w-full min-h-screen pink overflow-hidden '>
       
       
       {/* Menu title with the animated burger icon and heading */}
@@ -22,7 +22,7 @@ const Order = () => {
       {/* Pie component will display some content, maybe a chart or pie-related section */}
       <Pie />
 
-      <div className='h-[80px] bg-sky'></div>
+      <div className='h-[80px] pink'></div>
     </section>
   );
 }

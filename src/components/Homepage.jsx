@@ -32,21 +32,21 @@ const Homepage = () => {
     </div>
 
 
-    <div className='h-[40px] green'></div>
+    <div className='md:h-[120px] pink'></div>
 
-    <div className={`${styles.flexCenter} green z-50 `}>
+    <div className={`${styles.flexCenter} pink z-50 `}>
    <div className={`${styles.boxWidth}`}>
     <Choice />
     <Choicefile/>
    </div>
     </div>
 
-    <div className='md:h-[120px] h-[40px] bg-sky z-30'></div>
-    <div>
+    <div className='md:h-[120px] h-[40px] pink z-30'></div>
+    {/* <div>
       <Recess />
-    </div>
+    </div> */}
 
-    <div className={`${styles.flexCenter} bg-pinkk z-50 `}>
+    <div className={`${styles.flexCenter} pink z-50 `}>
    <div className={`${styles.boxWidth}`}>
     <Order />
    </div>
@@ -55,7 +55,7 @@ const Homepage = () => {
    
     
 
-    <div className='h-[80px] green'></div>
+    <div className='h-[80px] pink'></div>
 
     <div className='h-[40px] bg-sky'></div>
     <div className={`${styles.flexCenter} bg-sky`}>

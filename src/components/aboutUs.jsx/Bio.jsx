@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styles from '../../style';
 import Image from './Image';
-import { petal } from '../../assets';
+import { bgimg, petal } from '../../assets';
 import { motion, useInView } from 'framer-motion';
 
 const Bio = () => {
@@ -30,7 +30,7 @@ const Bio = () => {
           <h1>Churros</h1>
           <motion.img
             ref={ref} // Attach ref to the image
-            src={petal}
+            src={bgimg}
             alt="Petal"
             className='md:w-50 w-[40%]'
             initial="initial"
