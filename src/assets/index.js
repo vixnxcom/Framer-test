@@ -28,10 +28,12 @@ import about from './about.png'
 import petal from './petal.png'
 import bgimg from './bgimg.png'
 import woman from './woman.png'
+import bgg from './bgg.png'
 
 
 
 export {
+    bgg,
     woman,
     bgimg,
     petal,

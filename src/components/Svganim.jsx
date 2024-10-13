@@ -17,7 +17,7 @@ const Svganim = () => {
         duration: 2,
         delay: 1,
         repeat: Infinity,
-        repeatDelay: 3,
+        repeatDelay: 2,
         ease: 'easeInOut',
       },
     },

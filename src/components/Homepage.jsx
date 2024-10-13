@@ -42,9 +42,9 @@ const Homepage = () => {
     </div>
 
     <div className='md:h-[120px] h-[40px] pink z-30'></div>
-    {/* <div>
+     <div>
       <Recess />
-    </div> */}
+    </div> 
 
     <div className={`${styles.flexCenter} pink z-50 `}>
    <div className={`${styles.boxWidth}`}>
