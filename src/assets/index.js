@@ -29,10 +29,14 @@ import petal from './petal.png'
 import bgimg from './bgimg.png'
 import woman from './woman.png'
 import bgg from './bgg.png'
+import sun from './sun.png'
+import sunn from './sunn.png'
 
 
 
 export {
+    sun,
+    sunn,
     bgg,
     woman,
     bgimg,

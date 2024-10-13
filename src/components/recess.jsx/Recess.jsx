@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { bgg, custom } from '../../assets';
 import styles from '../../style';
+import Flower from './Flower';
 
 const Recess = () => {
   const ref = useRef(null);
@@ -16,14 +17,15 @@ const Recess = () => {
       opacity: 1,
       scale: 1,
       transition: {
-        duration: 1,
+        duration: 3,
         ease: 'easeInOut',
       },
     },
   };
 
   return (
-    <motion.div className={`${styles.flexCenter} relative h-[40vh] bg-pink`}>
+    <motion.div className={`${styles.flexCenter} h-[57vh] relative bg-pink`}>
+      
       <h1 className=' absolute pop-bold text-[6vw] text-white top-0 left-2'>
         Churros
       </h1>
@@ -31,11 +33,12 @@ const Recess = () => {
         Churros
       </h1>
     
+     
       {/* Background image (bgg) */}
       <img 
         src={bgg} 
         alt="Background" 
-        className='absolute top-0 right-0 w-[50vw] z-10' // Positioned behind the custom image
+        className='absolute top-2 right-0 w-[50vw] z-10' // Positioned behind the custom image
       />
       
       {/* Custom image */}
@@ -43,12 +46,19 @@ const Recess = () => {
         ref={ref} 
         src={custom}
         alt="Custom Image"
-        className='absolute top-0 right-[4vw] md:w-[50%] w-[70%] z-20' // Positioned in front of the background
+        className='absolute top-2 right-[4vw] md:w-[50%] w-[70%] z-20' // Positioned in front of the background
         initial="initial"
         animate={isInView ? "animate" : "initial"} 
         variants={imgVariants}
       />
-      
+
+   
+
+      <div className='mt-10 h-[10vh] w-full'>
+        <Flower />
+      </div>
+     
+    
     </motion.div>
   );
 };

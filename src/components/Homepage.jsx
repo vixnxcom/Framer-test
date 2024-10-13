@@ -41,7 +41,7 @@ const Homepage = () => {
    </div>
     </div>
 
-    <div className='md:h-[120px] h-[40px] pink z-30'></div>
+    <div className='md:h-[120px] h-[80px] pink z-30'></div>
      <div>
       <Recess />
     </div> 
