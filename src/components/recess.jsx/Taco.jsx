@@ -30,7 +30,7 @@ const Taco3DScroll = () => {
       </motion.h1> */}
       <motion.img
         className="taco-text ml-2 pop-medium w-20 text-white" 
-      src={heart}
+      src={sunn}
       />
         
      
