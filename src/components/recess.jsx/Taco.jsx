@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { taco } from "../../assets"; // Ensure this path is correct
+import { heart, sunn, taco } from "../../assets"; // Ensure this path is correct
 
 const Taco3DScroll = () => {
   const { scrollYProgress } = useScroll();
@@ -21,13 +21,19 @@ const Taco3DScroll = () => {
         transition={{ type: "spring", stiffness: 500, damping: 20 }}
         className="taco-image"
       />
-      <motion.h1
-        className="taco-text ml-2 pop-medium text-[10vw] text-white" // Add margin to the left for spacing
-        style={{ opacity }} // Apply the fade-in effect
-        transition={{ duration: 0.5 }} // Duration of the fade-in effect
+      {/* <motion.h1
+        className="taco-text ml-2 pop-medium text-[10vw] text-white" 
+        style={{ opacity }}
+        transition={{ duration: 0.5 }} 
       >
         Tacos
-      </motion.h1>
+      </motion.h1> */}
+      <motion.img
+        className="taco-text ml-2 pop-medium w-20 text-white" 
+      src={heart}
+      />
+        
+     
     </div>
   );
 };
