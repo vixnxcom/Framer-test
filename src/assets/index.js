@@ -31,10 +31,12 @@ import woman from './woman.png'
 import bgg from './bgg.png'
 import sun from './sun.png'
 import sunn from './sunn.png'
+import taco from './taco.png'
 
 
 
 export {
+    taco,
     sun,
     sunn,
     bgg,

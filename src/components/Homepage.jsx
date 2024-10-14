@@ -17,6 +17,7 @@ import Choice from './Choice'
 import Choicefile from './Choicefile'
 import About from './aboutUs.jsx/About'
 import Recess from './recess.jsx/Recess'
+import Taco from './recess.jsx/Taco'
 
 
 const Homepage = () => {
@@ -52,7 +53,9 @@ const Homepage = () => {
    </div>
     </div>
 
-   
+   <div className='h-[55vh] pink'>
+    <Taco />
+   </div>
     
 
     <div className='h-[80px] pink'></div>
