@@ -31,8 +31,8 @@ const Choice = () => {
       </h1>
       <motion.div className="mt-2">
         <motion.img 
-          src={heart} 
-          className="md:w-[50%] w-[100%]" 
+          src={clip} 
+          className="md:w-[100%] w-[100%]" 
           variants={imgVariants} 
           initial="initial" 
           animate="animate" 
