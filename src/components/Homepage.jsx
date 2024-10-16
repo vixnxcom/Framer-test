@@ -18,6 +18,7 @@ import Choicefile from './Choicefile'
 import About from './aboutUs.jsx/About'
 import Recess from './recess.jsx/Recess'
 import Taco from './recess.jsx/Taco'
+import RandomHeart from './Heart'
 
 
 const Homepage = () => {
@@ -31,6 +32,9 @@ const Homepage = () => {
     <Group />
    </div>
     </div>
+
+
+   {/* <RandomHeart /> */}
 
 
     <div className='md:h-[120px] pink'></div>
