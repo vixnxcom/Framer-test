@@ -41,7 +41,7 @@ const Recipes = () => {
     </motion.div>
 
     <motion.div className='h-[15vh]'>
-        <motion.img src={recipes} alt="" className='md:w-[50%] w-40'  
+        <motion.img src={recipes} alt="" className='md:w-[50%] w-40 mx-2'  
         variants={starVariants} 
           initial="initial" 
           animate="animate" />

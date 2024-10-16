@@ -41,7 +41,7 @@ const Stat = () => {
     </motion.div>
 
     <motion.div className='h-[15vh] '>
-        <motion.img src={organic} alt="" className='md:w-[50%] w-40'  
+        <motion.img src={organic} alt="" className='md:w-[50%] w-40 mx-4'  
         variants={starVariants} 
           initial="initial" 
           animate="animate" />
