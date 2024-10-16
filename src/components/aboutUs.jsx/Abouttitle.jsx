@@ -36,7 +36,7 @@ const Abouttitle = () => {
         />
       </motion.div>
 
-      <h1 className='pop-bold text-6xl mb-4 text-white mt-10 text'>
+      <h1 className='pop-bold text-[11vw] mb-4 text-white mt-10 text'>
         About Us
       </h1>
     </div>

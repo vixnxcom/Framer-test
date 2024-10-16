@@ -24,12 +24,12 @@ const Recess = () => {
   };
 
   return (
-    <motion.div className={`${styles.flexCenter} h-[57vh] relative bg-pink`}>
+    <motion.div className={`${styles.flexCenter} h-[57vh] relative bg-pink `}>
       
-      <h1 className=' absolute pop-bold text-[6vw] text-white top-0 left-2'>
+      <h1 className=' absolute pop-bold md:text-[2vw] text-[6vw] text-white top-0 left-2 md:mx-20 '>
         Churros
       </h1>
-      <h1 className=' absolute pop-bold text-[11vw] text-white top-12 left-2'>
+      <h1 className=' absolute pop-bold md:text-[4vw] text-[11vw] text-white top-12 left-2 md:mx-20'>
         Churros
       </h1>
     
@@ -38,7 +38,7 @@ const Recess = () => {
       <img 
         src={bgg} 
         alt="Background" 
-        className='absolute top-2 right-0 w-[50vw] z-10' // Positioned behind the custom image
+        className='absolute top-2 right-0 w-[50vw] z-10 md:mx-20' // Positioned behind the custom image
       />
       
       {/* Custom image */}
@@ -46,7 +46,7 @@ const Recess = () => {
         ref={ref} 
         src={custom}
         alt="Custom Image"
-        className='absolute top-2 right-[4vw] md:w-[50%] w-[70%] z-20' // Positioned in front of the background
+        className='absolute top-2 right-[4vw] md:w-[50%] w-[70%] z-20 md:mx-20' // Positioned in front of the background
         initial="initial"
         animate={isInView ? "animate" : "initial"} 
         variants={imgVariants}

@@ -26,7 +26,7 @@ const Choice = () => {
 
   return (
     <div className={`${styles.flexCenter} flex flex-row md:w-[50vw] w-[80vw] justify-center items-center mx-auto mb-10 `}>
-        <h1 className='pop-bold text-6xl mb-4 text-white mt-10 text'>
+        <h1 className='pop-bold text-[11vw] mb-4 text-white mt-10 text'>
         Yum Choices
       </h1>
       <motion.div className="mt-2">

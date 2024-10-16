@@ -47,9 +47,9 @@ const Recipes = () => {
           animate="animate" />
     </motion.div>
 
-    <div className={`${styles.flexCenter}  mx-auto justify-center items-center text-center flex flex-col `}>
-        <h1 className='pop-medium text-[7vw] text-white mt-1 '>200+ </h1>
-        <h1 className='pop-medium text-[6vw] text-white mt-1 '>Recipes </h1>
+    <div className={`${styles.flexCenter}   mx-auto justify-center items-center text-center flex flex-col `}>
+        <h1 className='pop-medium md:text-[3vw] text-[7vw] text-white mt-1 '>200+ </h1>
+        <h1 className='pop-medium md:text-[3vw] text-[6vw] text-white mt-1 '>Recipes </h1>
     </div>
 
 
