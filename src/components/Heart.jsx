@@ -35,10 +35,12 @@ const RandomHearts = () => {
           y: [-30, 0, 30, 0], // Float effect
         }}
         transition={{
+            delay: 7,
           duration: 3, // Duration for smooth float
           ease: 'easeInOut',
           repeat: Infinity, // Infinite repeat for floating effect
           repeatType: 'reverse', // Back-and-forth floating
+          repeatDelay: 2,
         }}
       >
         {/* Pixel heart image */}
@@ -62,7 +64,8 @@ const RandomHearts = () => {
           ease: 'easeInOut',
           repeat: Infinity, // Infinite repeat for floating effect
           repeatType: 'reverse', // Back-and-forth floating
-          delay: 1, // Delay the right heart animation by 1 second
+          repeatDelay: 2,
+          delay: 9, // Delay the right heart animation by 1 second
         }}
       >
         {/* Pixel heart image */}
