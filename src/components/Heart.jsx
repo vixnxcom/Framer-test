@@ -27,7 +27,7 @@ const RandomHearts = () => {
         style={{
           position: 'fixed', // Fixed position to stay in view while scrolling
           top: leftHeartTop, // Random vertical position
-          left: '10%', // Position to the left
+          left: '15%', // Position to the left
           transform: 'translate(-50%, -50%)',
         }}
         animate={{
@@ -35,7 +35,7 @@ const RandomHearts = () => {
           y: [-30, 0, 30, 0], // Float effect
         }}
         transition={{
-            delay: 7,
+            delay: 5.5,
           duration: 3, // Duration for smooth float
           ease: 'easeInOut',
           repeat: Infinity, // Infinite repeat for floating effect
@@ -44,7 +44,7 @@ const RandomHearts = () => {
         }}
       >
         {/* Pixel heart image */}
-        <img src={heart} alt="Pixel Heart" className="w-20" />
+        <img src={heart} alt="Pixel Heart" className="w-[15%]" />
       </motion.div>
 
       {/* Right Heart */}
@@ -52,7 +52,7 @@ const RandomHearts = () => {
         style={{
           position: 'fixed', // Fixed position to stay in view while scrolling
           top: rightHeartTop, // Random vertical position
-          left: '90%', // Position to the right
+          left: '85%', // Position to the right
           transform: 'translate(-50%, -50%)',
         }}
         animate={{
@@ -65,11 +65,11 @@ const RandomHearts = () => {
           repeat: Infinity, // Infinite repeat for floating effect
           repeatType: 'reverse', // Back-and-forth floating
           repeatDelay: 2,
-          delay: 9, // Delay the right heart animation by 1 second
+          delay: 7.5, // Delay the right heart animation by 1 second
         }}
       >
         {/* Pixel heart image */}
-        <img src={heart} alt="Pixel Heart" className="w-20" />
+        <img src={heart} alt="Pixel Heart" className="w-[13%]" />
       </motion.div>
     </>
   );
