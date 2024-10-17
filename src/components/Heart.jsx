@@ -44,7 +44,7 @@ const RandomHearts = () => {
         }}
       >
         {/* Pixel heart image */}
-        <img src={heartt} alt="Pixel Heart" className="w-[15%]" />
+        <img src={heartt} alt="Pixel Heart" className="md:w-[5%] w-[15%]" />
       </motion.div>
 
       {/* Right Heart */}
@@ -69,7 +69,7 @@ const RandomHearts = () => {
         }}
       >
         {/* Pixel heart image */}
-        <img src={heart} alt="Pixel Heart" className="w-[13%]" />
+        <img src={heart} alt="Pixel Heart" className="md:w-[5%] w-[13%]" />
       </motion.div>
     </>
   );
