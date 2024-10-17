@@ -1,6 +1,7 @@
 
 import kitty from './KITTY.png'
 import heart from './HEART.png'
+import heartt from './HEARTT.png'
 import happy from './happy.png'
 import fire from './FIRE.png'
 import avacado from './avacado.png'
@@ -36,6 +37,7 @@ import taco from './taco.png'
 
 
 export {
+    heartt,
     taco,
     sun,
     sunn,

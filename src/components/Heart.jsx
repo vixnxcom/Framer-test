@@ -1,6 +1,6 @@
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import { heart } from '../assets'; // Correct path to your heart image
+import { heart, heartt } from '../assets'; // Correct path to your heart image
 
 const RandomHearts = () => {
   const { scrollYProgress } = useScroll();
@@ -44,7 +44,7 @@ const RandomHearts = () => {
         }}
       >
         {/* Pixel heart image */}
-        <img src={heart} alt="Pixel Heart" className="w-[15%]" />
+        <img src={heartt} alt="Pixel Heart" className="w-[15%]" />
       </motion.div>
 
       {/* Right Heart */}
