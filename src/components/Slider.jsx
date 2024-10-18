@@ -19,11 +19,11 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-full h-[55vh] overflow-hidden">
+    <div className="relative w-full h-[60vh] overflow-hidden">
       {/* Previous Button */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 bottom-0 transform -translate-y-1/2 w-20 p-2  text-white z-20"
+        className="absolute left-4 bottom-0 transform -translate-y-1/2 w-20 p-2  text-white z-20 mt-10"
       >
         <img src={forward} alt="" />
       </button>
@@ -46,7 +46,7 @@ const Slider = () => {
                     alt={slide.content}
                     className="w-20 mb-20  transition-transform duration-300 hover:scale-105 " // Enhanced styles for the image
                   />
-                  <div className="text-black mx-auto text-3xl mt-5 relative z-10 text-shadow  bg-opacity-50 md:w-[470px]  text-center neue-medium">
+                  <div className="text-black mx-auto text-3xl mt-10 relative z-10 text-shadow  bg-opacity-50 md:w-[470px]  text-center neue-medium">
                     {slide.content}
                   </div>
                   <img src={petal} alt="" className="w-20" />
