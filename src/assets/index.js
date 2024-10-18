@@ -33,10 +33,16 @@ import bgg from './bgg.png'
 import sun from './sun.png'
 import sunn from './sunn.png'
 import taco from './taco.png'
+import emoji from './emoji.png'
+import forward from './FORWARD.png'
+import back from './BACK.png'
 
 
 
 export {
+    back,
+    forward,
+    emoji,
     heartt,
     taco,
     sun,

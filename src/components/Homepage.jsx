@@ -19,6 +19,8 @@ import About from './aboutUs.jsx/About'
 import Recess from './recess.jsx/Recess'
 import Taco from './recess.jsx/Taco'
 import RandomHeart from './Heart'
+import Slider from './Slider'
+import Slidertitle from './Slidertitle'
 
 
 const Homepage = () => {
@@ -68,15 +70,20 @@ const Homepage = () => {
     <div className='h-[80px] pink'></div>
 
     <div className='h-[40px] bg-sky'></div>
+
     <div className={`${styles.flexCenter} bg-sky`}>
    <div className={`${styles.boxWidth}`}>
     <About />
-   
    </div>
     </div>
+
     <div className='h-[80px] bg-sky'></div>
 
    
+    <div className='bg-white md:h-auto  h-[100vh] '>
+  <Slidertitle />
+    <Slider />
+   </div>
 
    
     </section>
