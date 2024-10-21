@@ -4,7 +4,7 @@ import Group from './Group'
 
 import styles from '../style'
 import Line from './Line'
-import { love } from '../assets'
+import { logo, love } from '../assets'
 import MenuP from './MenuP'
 import Newmenu from './Newmenu'
 import Pie from './Pie'
@@ -26,6 +26,7 @@ import Edge from './Edge'
 import Edgeblue from './Edgeblue'
 import Edgepink from './Edgepink'
 import Edgewhite from './Edgewhite'
+import Footer from './footer.jsx/Footer'
 
 
 const Homepage = () => {
@@ -104,11 +105,26 @@ const Homepage = () => {
 
     
 
-    <div className='dusk md:h-auto  h-[100vh] '>
+    <div className='dusk md:h-auto   '>
   <Slidertitle />
     <Slider />
+  
+    <Edgepink/>
+   
    </div>
+   
+   
 
+   <div className={`${styles.flexCenter} h-[75vh] pink` }>
+   <div className={`${styles.boxWidth}`}>
+    <img src={logo} alt="" className='w-24' />
+   <h1 className='text-white pop-medium text-[12vw] mb-28'>
+            Churros
+        </h1>
+   
+   <Footer/>
+   </div>
+    </div>
    
     </section>
   )

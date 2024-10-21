@@ -55,7 +55,7 @@ const Slider = () => {
                   <Clip />
                  </div>
 
-                  <img src={starr} alt="" className="w-[33.3%] mb-10" />
+                  <img src={starr} alt="" className="w-[33.3%] mb-10 z-50" />
 
                   <div className=" mt-20 text items-center justify-center mx-auto z-10 text-white text-[7vw] flex flex-col  pop-medium ">
                     {slide.name}

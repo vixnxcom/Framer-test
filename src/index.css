@@ -358,3 +358,18 @@ svg {
 
 
 /* svg/////////////////////////////////////////////////// */
+.textstyle{
+  /* Contact */
+font-family: pop-medium;
+position: absolute;
+right: 0;
+top: 4;
+/* identical to box height */
+color: #FFFFFF;
+text-shadow: -4px 4px 0px #55FC06;
+transform: rotate(-90deg);
+
+}
+
+
+
