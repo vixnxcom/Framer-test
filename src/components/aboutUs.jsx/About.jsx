@@ -4,7 +4,7 @@ import Abouttitle from './Abouttitle'
 
 const About = () => {
   return (
-    <section className='w-full min-h-screen  overflow-hidden '>
+    <section className='w-full min-h-screen   overflow-hidden mb-10'>
         
         <Abouttitle />
         <Bio />

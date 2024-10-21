@@ -38,7 +38,7 @@ const Choicefile = () => {
   return (
     <motion.div
       ref={ref}
-      className={`${styles.flexCenter} grid grid-cols-2 gap-2 mx-auto pink md:h-[120vh] h-[70vh]`}
+      className={`${styles.flexCenter} grid grid-cols-2 gap-2 mx-auto yellow md:h-[120vh] h-[76vh]`}
       variants={containerVariants}
       initial="hidden"
       animate={isInView ? 'visible' : 'hidden'} // Trigger animation based on viewport visibility
@@ -46,7 +46,7 @@ const Choicefile = () => {
       {[Stat, Custom, Orders, Recipes].map((Component, index) => (
         <motion.div
           key={index}
-          className={`${styles.flexCenter} dusk md:h-[50vh] h-[35vh] mt-5 ${index >= 2 ? 'mb-5' : ''} neobox`}
+          className={`${styles.flexCenter} green md:h-[50vh] h-[35vh] mt-5 ${index >= 2 ? 'mb-5' : ''} neobox`}
           variants={itemVariants}
         >
           <div className={`${styles.boxWidth}`}>

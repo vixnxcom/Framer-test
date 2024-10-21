@@ -20,7 +20,7 @@ export default function Image() {
         ease: "easeInOut", // Smooth easing
       }}
     >
-      <img src={about} alt="about" className="w-full h-auto" />
+      <img src={about} alt="about" className="w-full h-auto " />
     </motion.div>
   );
 }

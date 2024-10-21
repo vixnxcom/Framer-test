@@ -36,10 +36,12 @@ import taco from './taco.png'
 import emoji from './emoji.png'
 import forward from './FORWARD.png'
 import back from './BACK.png'
+import starr from './starr.png'
 
 
 
 export {
+    starr,
     back,
     forward,
     emoji,

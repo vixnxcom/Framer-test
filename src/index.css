@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --bg: #e5e3dc;
-  --link-color: #e2e2dc;
---overlay-bg: #0a0a0a;
-}
+
 
 *{
   margin: 0;
@@ -120,20 +116,24 @@
     background-color: #ff0066;
   }
     .yellow{
-      background-color: #F3F802;
+      background-color: #FCC607;
     }
 
   .green{
        background-color: #55FC06;
+
   }
   .bg-green{
-       background-color: #22dddd;
-  }
+    
+       background-color: #04C0FB;
+    
+}
+  
   .bg-sky{
        background-color: #4be603;
   }
   .dusk{
-    background-color: #ff5800;
+    background-color: #6600ff;
   }
 .shadow{
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
@@ -336,4 +336,25 @@ box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), ;
 
 /* slider////////////////////////////////////////////////////////////////////// */
 
-  
+/* svg/////////////////////////////////////////////////// */
+
+.section-with-smooth-waves {
+  background-color: #f5f5f5; /* Adjust to match your design */
+  padding: 100px 20px; /* Customize padding as needed */
+  position: relative;
+}
+
+svg {
+  display: block;
+  margin-bottom: -1px; /* Ensure no gap between the section and the next */
+  width: 100%;
+  height: auto;
+}
+
+.next-section {
+  background-color: #fff; /* Adjust background color */
+  padding: 100px 20px;
+}
+
+
+/* svg/////////////////////////////////////////////////// */

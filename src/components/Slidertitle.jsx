@@ -36,7 +36,7 @@ const Slidertitle = () => {
         />
       </motion.div>
 
-      <h1 className='pop-bold text-[11vw]  text-green-700 mt-10 '>
+      <h1 className='pop-bold text-[11vw]  text-white mt-10 '>
         Customer Reviews
       </h1>
     </div>

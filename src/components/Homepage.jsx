@@ -21,11 +21,16 @@ import Taco from './recess.jsx/Taco'
 import RandomHeart from './Heart'
 import Slider from './Slider'
 import Slidertitle from './Slidertitle'
+import Flavors from './Flavors'
+import Edge from './Edge'
+import Edgeblue from './Edgeblue'
+import Edgepink from './Edgepink'
+import Edgewhite from './Edgewhite'
 
 
 const Homepage = () => {
   return (
-    <section className=' w-full overflow-hidden '> 
+    <section className=' w-full overflow-hidden pink'> 
 
 
 
@@ -38,20 +43,32 @@ const Homepage = () => {
 
    {/* <RandomHeart /> */}
 
+{/* first div */}
+<div className='w-full pink'>
 
-    <div className='md:h-[120px] pink'></div>
+     <div className='md:h-[120px] yellow'></div> 
+   <Edgewhite/>
 
-    <div className={`${styles.flexCenter} pink z-50 `}>
+    <div className={`${styles.flexCenter} yellow z-50 `}>
    <div className={`${styles.boxWidth}`}>
     <Choice />
     <Choicefile/>
+    <Edgepink/>
    </div>
     </div>
+
+    
+
+
 
     <div className='md:h-[120px] h-[120px] bg-pink  z-30'></div>
      <div>
       <Recess />
     </div> 
+
+
+    </div> 
+
 
 
     <div className='md:h-[400px] bg-pink'></div>
@@ -69,18 +86,25 @@ const Homepage = () => {
 
     <div className='h-[80px] pink'></div>
 
-    <div className='h-[40px] bg-sky'></div>
+    <div>
+      <Flavors />
+    </div>
 
-    <div className={`${styles.flexCenter} bg-sky`}>
+    {/* <div className='h-[40px] bg-sky'></div> */}
+    <Edge />
+
+    <div className={`${styles.flexCenter} green`}>
    <div className={`${styles.boxWidth}`}>
     <About />
+    <Edgeblue />
    </div>
     </div>
 
-    <div className='h-[80px] bg-sky'></div>
+    {/* <div className='h-[80px] bg-sky'></div> */}
 
-   
-    <div className='bg-white md:h-auto  h-[100vh] '>
+    
+
+    <div className='dusk md:h-auto  h-[100vh] '>
   <Slidertitle />
     <Slider />
    </div>
