@@ -37,10 +37,12 @@ import emoji from './emoji.png'
 import forward from './FORWARD.png'
 import back from './BACK.png'
 import starr from './starr.png'
+import halo from './halo.png'
 
 
 
 export {
+    halo,
     starr,
     back,
     forward,

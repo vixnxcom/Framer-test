@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../style';
-import { burger } from '../assets';
+import { burger, halo } from '../assets';
 import { motion } from 'framer-motion';
 
 const Slidertitle = () => {
@@ -37,11 +37,11 @@ const Slidertitle = () => {
   };
 
   return (
-    <div className={`${styles.flexCenter} flex flex-row md:w-[50vw] w-[80vw] justify-center items-center mx-auto mb-2`}>
+    <div className={`${styles.flexCenter} flex flex-col md:w-[50vw] w-[80vw] justify-center items-center mx-auto mb-2`}>
       <motion.div className="mt-2">
         <motion.img 
-          src={burger} 
-          className="w-40" 
+          src={halo} 
+          className="w-100" 
           variants={imgVariants} 
           initial="initial" 
           animate="animate" 
@@ -49,7 +49,7 @@ const Slidertitle = () => {
       </motion.div>
 
       <motion.h1
-        className="pop-bold text-[11vw] mb-4 text-white mt-10"
+        className="pop-bold text-[11vw] mb-4 text-white mt-10 items-center justify-center mx-auto text-center"
         variants={fadeIn}
         initial="initial"
         whileInView="animate"
