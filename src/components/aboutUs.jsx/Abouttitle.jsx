@@ -4,6 +4,16 @@ import { burger, woman } from '../../assets';
 import { motion } from 'framer-motion';
 
 const Abouttitle = () => {
+  const fadeIn = {
+    initial: {
+      opacity: 0,
+      y: 100,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  };
 
   const imgVariants = {
     initial: {
@@ -36,9 +46,15 @@ const Abouttitle = () => {
         />
       </motion.div>
 
-      <h1 className='pop-bold text-[11vw] mb-4 text-white mt-10 text'>
+      <motion.h1
+        className="pop-bold text-[11vw] mb-4 text-white mt-10"
+        variants={fadeIn}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+      >
         About Us
-      </h1>
+      </motion.h1>
     </div>
   );
 }

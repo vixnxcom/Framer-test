@@ -25,7 +25,7 @@ const Bio = () => {
 
   return (
     <div className={`${styles.flexCenter} ${styles.paddingX} flex flex-col`}>
-      <div className={`${styles.flexCenter} flex flex-col md:w-[1200px] w-[380px] mx-auto`}>
+      <div className={`${styles.flexCenter} flex flex-col md:w-[1200px] sm:w-[800px] w-[380px] mx-auto`}>
         <motion.div className='text-[8vw] pop-medium text-white flex flex-row'>
           <h1>Churros</h1>
           <motion.img

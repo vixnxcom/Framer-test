@@ -27,6 +27,9 @@ import Edgeblue from './Edgeblue'
 import Edgepink from './Edgepink'
 import Edgewhite from './Edgewhite'
 import Footer from './footer.jsx/Footer'
+import Clip from './Clip'
+import Cloud from './footer.jsx/Cloud'
+import Rain from './footer.jsx/Rain'
 
 
 const Homepage = () => {
@@ -113,14 +116,20 @@ const Homepage = () => {
    
    </div>
    
-   
+<div className='h-[25vh]'>
+  <Rain />
+</div>
 
-   <div className={`${styles.flexCenter} h-[75vh] pink` }>
+   <div className={`${styles.flexCenter} md:h-[200vh] h-[75vh] pink` }>
    <div className={`${styles.boxWidth}`}>
-    <img src={logo} alt="" className='w-24' />
-   <h1 className='text-white pop-medium text-[12vw] mb-28'>
+    <div className='flex flex-row mx-4'>
+    <img src={logo} alt="" className='w-20' />
+    <img src={logo} alt="" className='w-20' />
+    <img src={logo} alt="" className='w-20' />
+    </div>
+     <h1 className='text-white pop-medium text-[10vw] mb-28 mx-4'>
             Churros
-        </h1>
+     </h1>
    
    <Footer/>
    </div>
