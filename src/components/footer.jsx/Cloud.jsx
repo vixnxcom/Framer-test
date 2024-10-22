@@ -5,12 +5,12 @@ const Cloud = () => {
     const textVariants = {
         initial: {
           opacity: 0.8,
-          x: 0,
+          x: 20,
         },
         animate: {
           opacity: 1,
            scale: [1, 1.1, 1],
-          x: 20,
+          x: 0,
           transition: {
             duration: 3, // Controls the duration of the animation
             repeat: Infinity,
