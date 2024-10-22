@@ -30,6 +30,7 @@ import Footer from './footer.jsx/Footer'
 import Clip from './Clip'
 import Cloud from './footer.jsx/Cloud'
 import Rain from './footer.jsx/Rain'
+import Logoanin from './footer.jsx/Logoanin'
 
 
 const Homepage = () => {
@@ -116,21 +117,14 @@ const Homepage = () => {
    
    </div>
    
-<div className='h-[25vh]'>
+<div className='h-[25vh] pink'>
   <Rain />
 </div>
 
    <div className={`${styles.flexCenter} md:h-[200vh] h-[75vh] pink` }>
    <div className={`${styles.boxWidth}`}>
-    <div className='flex flex-row mx-4'>
-    <img src={logo} alt="" className='w-20' />
-    <img src={logo} alt="" className='w-20' />
-    <img src={logo} alt="" className='w-20' />
-    </div>
-     <h1 className='text-white pop-medium text-[10vw] mb-28 mx-4'>
-            Churros
-     </h1>
-   
+    
+   <Logoanin />
    <Footer/>
    </div>
     </div>

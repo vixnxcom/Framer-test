@@ -3,7 +3,7 @@ import Cloud from './Cloud';
 
 const Rain = () => {
   return (
-    <div className='relative flex justify-center items-center h-[30vh] w-full'>
+    <div className='relative flex justify-center items-center h-[30vh] w-full pink'>
       <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center'>
         <Cloud />
       </div>
