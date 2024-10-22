@@ -46,7 +46,7 @@ const Choicefile = () => {
       {[Stat, Custom, Orders, Recipes].map((Component, index) => (
         <motion.div
           key={index}
-          className={`${styles.flexCenter} green md:h-[50vh] h-[35vh] mt-5 ${index >= 2 ? 'mb-5' : ''} neobox`}
+          className={`${styles.flexCenter}  md:h-[50vh] h-[35vh] mt-5 ${index >= 2 ? 'mb-5' : ''} neobox`}
           variants={itemVariants}
         >
           <div className={`${styles.boxWidth}`}>
