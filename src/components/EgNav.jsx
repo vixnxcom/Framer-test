@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link"; // Import HashLink for scrolling
 import { close, logo, menu } from "../assets";
 import Navvbarr from "./Navvbarr";
 
@@ -40,34 +40,36 @@ const EgNav = () => {
   };
 
   return (
-    <nav className=" nav-section w-full   z-[999]">
+    <nav className="nav-section w-full z-[999]">
       {/* Main Navbar */}
-        {/* logo / text */}
-        <div className="absolute top-4 left-2 flex flex-row">
-           <Navvbarr />
-            </div>
-          <motion.button
-            className="absolute top-0 right-8 w-28 text-black   mt-1 " // Close button inside the menu
-            onClick={() => setIsOpen(!isOpen)} // menu open on button click
-          >
-           <motion.img src={menu} alt=""   initial={{rotate: 180, opacity: 0,  scale: 1 }} // Starts at normal size
-          animate={{rotate: 0, opacity: 1,  scale: [1, 1.5, 0.9, 1] }}
+      <div className="absolute top-4 left-2 flex flex-row">
+        <Navvbarr />
+      </div>
+      <motion.button
+        className="absolute top-0 right-8 w-28 text-black mt-1" // Close button inside the menu
+        onClick={() => setIsOpen(!isOpen)} // menu open on button click
+      >
+        <motion.img
+          src={menu}
+          alt=""
+          initial={{ rotate: 180, opacity: 0, scale: 1 }} // Starts at normal size
+          animate={{ rotate: 0, opacity: 1, scale: [1, 1.5, 0.9, 1] }}
           transition={{
-            delay: 3, duration: 1.5, ease: 'easeInOut', repeat: Infinity, repeatDelay: 7}}
-          
-         
-           />
-
-          </motion.button>
-   
-      
-        
-        {/* logo / text */}
-
+            delay: 3,
+            duration: 1.5,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 7,
+          }}
+        />
+      </motion.button>
 
       {/* Split screen effect */}
       <motion.div
-        className={`fixed inset-0 z-40 bg-blue-400 flex justify-between ${isOpen ? "block" : "hidden"} `} transition={{delay: 2, duration: 2}}
+        className={`fixed inset-0 z-40 bg-blue-400 flex justify-between ${
+          isOpen ? "block" : "hidden"
+        }`}
+        transition={{ delay: 2, duration: 2 }}
       >
         {/* Left Panel */}
         <motion.div
@@ -93,33 +95,32 @@ const EgNav = () => {
           animate="visible"
           variants={menuVariants} // Staggered animation applied to the parent div
         >
-            <div className="absolute top-4 left-2 flex flex-row">
-            <img src={logo} className="w-16"/>
-            <h1 className="pop-bold text-4xl mx-1 mt-4 texxtt">
-             Churros
-            </h1>
-            </div>
+          <div className="absolute top-4 left-2 flex flex-row">
+            <img src={logo} className="w-16" />
+            <h1 className="pop-bold text-4xl mx-1 mt-4 texxtt">Churros</h1>
+          </div>
           <button
-            className="absolute top-0 right-8 w-24 text-white  rounded-full   z-50" // Close button inside the menu
+            className="absolute top-0 right-8 w-24 text-white rounded-full z-50" // Close button inside the menu
             onClick={() => setIsOpen(false)} // Close on button click
           >
-           
             <img src={close} className="w-24" />
             &times;
           </button>
           <motion.ul className="space-y-8 text-5xl texxt">
-            <motion.li variants={itemVariants}>
+            {/* <motion.li variants={itemVariants}>
               <Link
-                to="/home"
-                onClick={handleSelection} // Close menu on item click
+                smooth
+                to="#home"
+                onClick={handleSelection}
                 className="hover:text-gray-400 neue-medium mx-2 font-bold"
               >
                 HOME
               </Link>
-            </motion.li>
+            </motion.li> */}
             <motion.li variants={itemVariants}>
               <Link
-                to="/menu"
+                smooth
+                to="#menu"
                 onClick={handleSelection}
                 className="hover:text-gray-400 neue-medium mx-2 font-bold"
               >
@@ -128,7 +129,8 @@ const EgNav = () => {
             </motion.li>
             <motion.li variants={itemVariants}>
               <Link
-                to="/about"
+                smooth
+                to="#about"
                 onClick={handleSelection}
                 className="hover:text-gray-400 neue-medium mx-2 font-bold"
               >
@@ -137,7 +139,8 @@ const EgNav = () => {
             </motion.li>
             <motion.li variants={itemVariants}>
               <Link
-                to="/contact"
+                smooth
+                to="#contact"
                 onClick={handleSelection}
                 className="hover:text-gray-400 neue-medium mx-2 font-bold"
               >
