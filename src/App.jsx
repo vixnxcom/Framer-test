@@ -8,7 +8,7 @@ import styles from "./style";
 const App = () => {
   return (
     <Router>
-      <div className="">
+      <div className=" w-full top-0">
         {/* Navigation Component */}
         <EgNav />
 
