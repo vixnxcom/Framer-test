@@ -34,18 +34,19 @@ const Orders = () => {
   return (
     <div className=''>
         
-    
+    <div className='dusk rounded-full neoo'>
     <motion.div>
-        <motion.img src={stars} alt="" className='w-40 mx-2'  
+        <motion.img src={stars} alt="" className='w-40 mx-6'  
        />
     </motion.div>
 
-    <motion.div className='h-[15vh]'>
+    <motion.div className='h-[15vh] '>
         <motion.img src={customer} alt="" className='md:w-[50%] w-40 mx-4'  
         variants={starVariants} 
           initial="initial" 
           animate="animate" />
     </motion.div>
+    </div>
 
     <div className={`${styles.flexCenter}  mx-auto justify-center items-center text-center flex flex-col `}>
         <h1 className='pop-medium md:text-[3vw] text-[7vw] textgreen mt-1 '>1,000+ </h1>

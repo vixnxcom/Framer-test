@@ -378,3 +378,12 @@ transform: rotate(-90deg);
   color: #4be603;
 }
 
+
+.neoo{
+  box-shadow: -4px 4px 0px #111;
+}
+
+.textgreen{
+  color: #fff;
+  text-shadow: 0.3px 0.3px 0px #111;
+}
