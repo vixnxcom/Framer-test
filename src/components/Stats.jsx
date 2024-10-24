@@ -49,7 +49,7 @@ const Stat = () => {
 
     <div className={`${styles.flexCenter}  mx-auto justify-center items-center text-center flex flex-col `}>
         <h1 className='pop-medium md:text-[3vw] text-[7vw] textgreen mt-1 '>100% </h1>
-        <h1 className='pop-medium md:text-[3vw] text-[6vw] textgreen mt-1 '>Organic </h1>
+        <h1 className='pop-medium md:text-[3vw] text-[6vw] textgreen mt-1 '>ORGANIC </h1>
     </div>
 
 
